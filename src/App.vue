@@ -1,17 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Pokemon Wild Area Map" src="./assets/pokemon-wild-area.jpg">
+    <DenLocation v-for="(den, index) in dens" :key="index" :position='den.position' :gmax='denPokemon[den.id].gmax' />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DenLocation from './components/DenLocation.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    DenLocation
+  },
+  data() {
+    return {
+      dens: [
+        {id: 1, position: {x: 10, y: 100}},
+        {id: 27, position: {x: 500, y: 1000}},
+      ],
+      denPokemon: {
+        1: {gmax: false, pokemon: [101]},
+        27: {gmax: true, pokemon: [207]},
+      },
+    }
   }
 }
 </script>
@@ -21,8 +33,6 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
