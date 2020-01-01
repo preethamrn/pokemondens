@@ -31,7 +31,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # TODO
 - Support list of Pokemon in a table
-- Fix all den positions
+- Setup all den positions
+- Fix styling for the hover layout
 - Add list of all pokemon to each den (from Serebii)
 - Show Pokemon icons (download sprites from Serebii)
 - Add deep links into Serebii

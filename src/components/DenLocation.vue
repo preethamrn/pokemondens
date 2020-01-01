@@ -1,6 +1,6 @@
 <template>
   <div class='den' :style="{left: position.x + 'px', top: position.y + 'px'}" @mouseenter="triggerHover()" @mouseleave="clearHover()">
-    <img :src="gmax ? gmaxImg : dmaxImg">
+    <img :src="gmax ? '/icons/gmax.png' : '/icons/dmax.png'">
     <v-layout v-if='hover'>
       <div class='versions'>
         <div class='sw'>Sword</div>
@@ -39,14 +39,10 @@
 </template>
 
 <script>
-const dmaxImg = require('../assets/dmax.png')
-const gmaxImg = require('../assets/gmax.png')
-
 export default {
   name: 'DenLocation',
   data() {
     return {
-      dmaxImg, gmaxImg,
       hover: false,
     }
   },
