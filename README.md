@@ -33,8 +33,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Support list of Pokemon in a table
 - Setup all den positions
 - Fix styling for the hover layout
-- Add list of all pokemon to each den (from Serebii)
-- Show Pokemon icons (download sprites from Serebii)
 - Add deep links into Serebii
 - Add contact and credits links
 - Search for dens by Pokemon
@@ -46,3 +44,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 # DONE
 - Map with den markers positioning functionality
 - Add hover to show Pokemon functionality
+- Show Pokemon icons (download sprites from Serebii)
+- Add list of all pokemon to each den (from Serebii)
