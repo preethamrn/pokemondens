@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Pokemon Wild Area Map" src="./assets/pokemon-wild-area.jpg">
+    <img alt="Pokemon Wild Area Map" src="./assets/pokemon-wild-area.png">
     <DenLocation v-for="(den, index) in dens" :key="index" :position='den.position' :gmax='denPokemon[den.id].gmax' />
   </div>
 </template>
@@ -34,5 +34,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  background-color: #b1cf4b;
 }
 </style>
