@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Pokemon Wild Area Map" src="./assets/pokemon-wild-area.png">
-    <DenLocation v-for="(den, index) in dens" :key="index" :position='den.position' :gmax='denPokemon[den.id].gmax' />
+    <DenLocation v-for="(den, index) in dens" :key="index" :position='den.position' :commonDen='denPokemon[den.commonID]' :rareDen='denPokemon[den.rareID]' :gmax='denPokemon[den.commonID].gmax || denPokemon[den.rareID].gmax' :screenshotImg='den.img'/>
   </div>
 </template>
 
@@ -16,12 +16,11 @@ export default {
   data() {
     return {
       dens: [
-        {id: 1, position: {x: 10, y: 100}},
-        {id: 27, position: {x: 500, y: 1000}},
+        {commonID: 38, rareID: 64, location: "Axew's Eye", img: "https://www.serebii.net/swordshield/den/th/axew'seye-1.jpg",  position: {x: 10, y: 100}},
       ],
       denPokemon: {
-        1: {gmax: false, pokemon: [101]},
-        27: {gmax: true, pokemon: [207]},
+        38: {name: 'Den 38', link: "https://www.serebii.net/swordshield/maxraidbattles/den38.shtml", gmax: false, swordPokemon: ['714', '840', '782', '885', '714', '840', '886', '715', '783', '784', '841', '887'], shieldPokemon: ['714', '840', '704', '885', '714', '840', '886', '715', '705', '706', '842', '887']},
+        64: {name: 'Den 64', link: "https://www.serebii.net/swordshield/maxraidbattles/den64.shtml", gmax: false, swordPokemon: ['328', '840', '610', '782', '885', '611', '783', '776', '784', '886', '612', '887'], shieldPokemon: ['610', '840', '328', '704', '885', '329', '705', '780', '706', '886', '330', '887']},
       },
     }
   }

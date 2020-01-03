@@ -30,7 +30,7 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # TODO
-- Support list of Pokemon in a table
+- Setup all den Pokemon (update denPokemon.py script to generate the required component data)
 - Setup all den positions
 - Fix styling for the hover layout
 - Add deep links into Serebii
@@ -46,3 +46,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Add hover to show Pokemon functionality
 - Show Pokemon icons (download sprites from Serebii)
 - Add list of all pokemon to each den (from Serebii)
+- Support list of Pokemon in a table

@@ -41,7 +41,7 @@ def getDenNumber(raid):
     a = raid.find('a')
     return {
         'number': a.text,
-        'link': a.get('href')
+        'link': 'https://www.serebii.net/swordshield/' + a.get('href')
     }
 
 if __name__ == '__main__':
@@ -57,7 +57,7 @@ if __name__ == '__main__':
         [loc, img, common, rare] = children
 
         print(loc.text)
-        print('https://www.serebii.net/' + img.find('a').get('href'))
+        print('https://www.serebii.net/swordshield/' + img.find('img').get('src'))
         print({**getDenNumber(common), **getPokemon(common)})
         print({**getDenNumber(rare), **getPokemon(rare)})
         print()

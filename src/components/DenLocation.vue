@@ -1,46 +1,24 @@
 <template>
   <div class='den' :style="{left: position.x + 'px', top: position.y + 'px'}" @mouseenter="triggerHover()" @mouseleave="clearHover()">
     <img :src="gmax ? '/icons/gmax.png' : '/icons/dmax.png'">
-    <v-layout v-if='hover'>
-      <div class='versions'>
-        <div class='sw'>Sword</div>
-        <div class='swp pokemon-list'>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-        </div>
-        <div class='sh'>Shield</div>
-        <div class='shp pokemon-list'>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-          <div class='sprite'></div>
-        </div>
-      </div>
-    </v-layout>
+    <v-container v-if='hover' class='den-hover' fluid>
+      <v-row style="justify-content: center;"><img :src='screenshotImg' width="50%"/></v-row>
+      <v-row>
+        <v-col><den-raid :swordPokemon='commonDen.swordPokemon' :shieldPokemon='commonDen.shieldPokemon' :name='commonDen.name' :link='commonDen.link' type="Common" /></v-col>
+        <v-col><den-raid :swordPokemon='rareDen.swordPokemon' :shieldPokemon='rareDen.shieldPokemon' :name='rareDen.name' :link='rareDen.link' type="Rare" /></v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
 
 <script>
+import DenRaid from './DenRaid.vue'
+
 export default {
   name: 'DenLocation',
+  components: {
+    DenRaid,
+  },
   data() {
     return {
       hover: false,
@@ -48,8 +26,10 @@ export default {
   },
   props: {
     position: Object,
-    pokemon: Array,
+    commonDen: Object,
+    rareDen: Object,
     gmax: Boolean,
+    screenshotImg: String,
   },
   methods: {
     triggerHover() {
@@ -66,24 +46,7 @@ export default {
 .den {
   position: absolute;
 }
-.sh .sw {
-  line-height: 100%;
-}
-.versions {
-  position: absolute;
+.den-hover {
   background-color: #ffffff;
-  padding: 10px;
-  display: grid;
-  grid-template:
-    "sw swp" auto
-    "sh shp" auto / 1fr 5fr;
-}
-.pokemon-list {
-  display: grid;
-  grid: repeat(3, 50px) / auto-flow 60px;
-}
-.sprite {
-  background-color: #8ca0ff;
-  width: 47px; height: 47px;
 }
 </style>
