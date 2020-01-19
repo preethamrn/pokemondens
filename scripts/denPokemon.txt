@@ -1,495 +1,192 @@
-Axew's Eye
-https://www.serebii.net/swordshield/den/th/axew'seye-1.jpg
-{'number': 'Den 38', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den38.shtml', 'sword': ['714', '840', '782', '885', '714', '840', '886', '715', '783', '784', '841', '887'], 'shield': ['714', '840', '704', '885', '714', '840', '886', '715', '705', '706', '842', '887']}
-{'number': 'Den 64', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den64.shtml', 'sword': ['328', '840', '610', '782', '885', '611', '783', '776', '784', '886', '612', '887'], 'shield': ['610', '840', '328', '704', '885', '329', '705', '780', '706', '886', '330', '887']}
-
-Bridge Field
-https://www.serebii.net/swordshield/den/th/bridgefield-1.jpg
-{'number': 'Den 16', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den16.shtml', 'sword': ['050', '749', '290', '529', '095', '339', '208', '340', '660', '051', '530', '750'], 'shield': ['050', '749', '290', '529', '095', '339', '208', '340', '660', '051', '530', '750']}
-{'number': 'Den 52', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den52.shtml', 'sword': ['194', '339', '562-g', '622', '536', '195', '618-g', '623', '423-e', '537', '867', '464'], 'shield': ['194', '339', '562-g', '622', '536', '195', '618-g', '623', '423-e', '537', '867', '464']}
-
-Bridge Field
-https://www.serebii.net/swordshield/den/th/bridgefield-2.jpg
-{'number': 'Den 13', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den13.shtml', 'sword': ['439', '824', '177', '856', '825', '857', '561', '178', '876', '561', '826', '858'], 'shield': ['439', '824', '177', '856', '077-g', '857', '561', '178', '876-f', '765', '078-g', '858']}
-{'number': 'Den 87', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den87.shtml', 'sword': ['175', '684', '859', '280', '176', '860', '685', '868', '282', '861', '468', '858-gi'], 'shield': ['175', '682', '859', '280', '176', '860', '683', '868', '282', '861', '468', '858-gi']}
-
-Bridge Field
-https://www.serebii.net/swordshield/den/th/bridgefield-3.jpg
-{'number': 'Den 27', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den27.shtml', 'sword': ['406', '829', '546', '840', '420', '315', '597', '598', '421', '830', '547', '841'], 'shield': ['406', '829', '546', '840', '420', '315', '597', '598', '421', '830', '547', '842']}
-{'number': 'Den 59', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den59.shtml', 'sword': ['420', '273', '829', '546', '274', '755', '421', '756', '830', '547', '275', '781'], 'shield': ['420', '270', '829', '546', '271', '755', '421', '756', '830', '547', '272', '781']}
-
-Bridge Field
-https://www.serebii.net/swordshield/den/th/bridgefield-4.jpg
-{'number': 'Den 8', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den8.shtml', 'sword': ['833', '846', '422-e', '751', '320', '550', '746', '834', '847', '752', '423-e', '321'], 'shield': ['833', '846', '422-e', '751', '320', '550', '746', '834', '847', '752', '423-e', '321']}
-{'number': 'Den 44', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den44.shtml', 'sword': ['129', '349', '846', '833', '747', '550', '211', '748', '771', '130', '131', '350'], 'shield': ['129', '349', '846', '833', '747', '550', '211', '748', '771', '130', '131', '350']}
-
-Bridge Field
-https://www.serebii.net/swordshield/den/th/bridgefield-5.jpg
-{'number': 'Den 36', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den36.shtml', 'sword': ['827', '263-g', '509', '859', '633', '828', '264-g', '860', '861', '634', '862', '635'], 'shield': ['827', '263-g', '509', '859', '629', '828', '264-g', '860', '861', '630', '862', '248']}
-{'number': 'Den 63', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den63.shtml', 'sword': ['827', '263-g', '559', '215', '510', '264-g', '828', '675', '461', '560', '862', '635'], 'shield': ['827', '263-g', '629', '215', '510', '264-g', '828', '675', '461', '630', '862', '248']}
-
-Bridge Field
-https://www.serebii.net/swordshield/den/th/bridgefield-6.jpg
-{'number': 'Den 4', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den4.shtml', 'sword': ['010', '736', '290', '595', '011', '632', '737', '291', '012', '596', '738', '632'], 'shield': ['010', '736', '290', '595', '632', '011', '737', '291', '012', '596', '738', '632']}
-{'number': 'Den 92', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den92.shtml', 'sword': ['767', '824', '588', '751', '616', '557', '825', '826', '752', '768', '589', '826-gi'], 'shield': ['767', '824', '616', '751', '588', '557', '825', '826', '752', '768', '617', '826-gi']}
-
-Bridge Field
-https://www.serebii.net/swordshield/den/th/bridgefield-7.jpg
-{'number': 'Den 5', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den5.shtml', 'sword': ['010', '415', '742', '824', '595', '011', '825', '596', '012', '743', '416', '826'], 'shield': ['010', '415', '742', '824', '595', '011', '825', '596', '012', '743', '416', '826']}
-{'number': 'Den 46', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den46.shtml', 'sword': ['767', '824', '588', '751', '616', '557', '825', '826', '752', '768', '589', '292'], 'shield': ['767', '824', '616', '751', '588', '557', '825', '826', '752', '768', '617', '292']}
-
-Bridge Field
-https://www.serebii.net/swordshield/den/th/bridgefield-8.jpg
-{'number': 'Den 40', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den40.shtml', 'sword': ['819', '831', '263-g', '446', '876', '820', '264-g', '820', '832', '660', '628', '143'], 'shield': ['819', '831', '263-g', '446', '876-f', '820', '264-g', '820', '832', '660', '765', '143']}
-{'number': 'Den 65', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den65.shtml', 'sword': ['659', '519', '819', '133', '520', '831', '521', '832', '628', '876', '133', '143'], 'shield': ['659', '519', '819', '133', '520', '831', '521', '832', '765', '876-f', '133', '143']}
-
-Bridge Field
-https://www.serebii.net/swordshield/den/th/bridgefield-9.jpg
-{'number': 'Den 34', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den34.shtml', 'sword': ['439', '868', '859', '280', '035', '281', '860', '036', '282', '869', '303', '861'], 'shield': ['439', '868', '859', '280', '035', '281', '860', '036', '282', '869', '078-g', '861']}
-{'number': 'Den 82', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den82.shtml', 'sword': ['175', '755', '859', '280', '176', '756', '860', '303', '282', '468', '861', '869-gi'], 'shield': ['175', '077-g', '859', '280', '176', '756', '860', '078-g', '282', '468', '861', '869-gi']}
-
-Dappled Grove
-https://www.serebii.net/swordshield/den/th/dappledgrove-1.jpg
-{'number': 'Den 26', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den26.shtml', 'sword': ['406', '273', '761', '043', '274', '315', '044', '762', '275', '763', '045', '182'], 'shield': ['406', '270', '761', '043', '271', '315', '044', '762', '272', '763', '045', '182']}
-{'number': 'Den 59', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den59.shtml', 'sword': ['420', '273', '829', '546', '274', '755', '421', '756', '830', '547', '275', '781'], 'shield': ['420', '270', '829', '546', '271', '755', '421', '756', '830', '547', '272', '781']}
-
-Dappled Grove
-https://www.serebii.net/swordshield/den/th/dappledgrove-2.jpg
-{'number': 'Den 4', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den4.shtml', 'sword': ['010', '736', '290', '595', '011', '632', '737', '291', '012', '596', '738', '632'], 'shield': ['010', '736', '290', '595', '632', '011', '737', '291', '012', '596', '738', '632']}
-{'number': 'Den 92', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den92.shtml', 'sword': ['767', '824', '588', '751', '616', '557', '825', '826', '752', '768', '589', '826-gi'], 'shield': ['767', '824', '616', '751', '588', '557', '825', '826', '752', '768', '617', '826-gi']}
-
-Dappled Grove
-https://www.serebii.net/swordshield/den/th/dappledgrove-3.jpg
-{'number': 'Den 26', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den26.shtml', 'sword': ['406', '273', '761', '043', '274', '315', '044', '762', '275', '763', '045', '182'], 'shield': ['406', '270', '761', '043', '271', '315', '044', '762', '272', '763', '045', '182']}
-{'number': 'Den 59', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den59.shtml', 'sword': ['420', '273', '829', '546', '274', '755', '421', '756', '830', '547', '275', '781'], 'shield': ['420', '270', '829', '546', '271', '755', '421', '756', '830', '547', '272', '781']}
-
-Dappled Grove
-https://www.serebii.net/swordshield/den/th/dappledgrove-4.jpg
-{'number': 'Den 26', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den26.shtml', 'sword': ['406', '273', '761', '043', '274', '315', '044', '762', '275', '763', '045', '182'], 'shield': ['406', '270', '761', '043', '271', '315', '044', '762', '272', '763', '045', '182']}
-{'number': 'Den 58', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den58.shtml', 'sword': ['406', '273', '829', '597', '274', '840', '315', '275', '830', '598', '407', '841'], 'shield': ['406', '270', '829', '597', '271', '840', '315', '272', '830', '598', '407', '842']}
-
-Dappled Grove
-https://www.serebii.net/swordshield/den/th/dappledgrove-5.jpg
-{'number': 'Den 28', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den28.shtml', 'sword': ['710', '708', '710', '755', '710', '315', '756', '556', '709', '711', '781', '710'], 'shield': ['710', '708', '710', '755', '710', '315', '756', '556', '709', '711', '781', '710']}
-{'number': 'Den 79', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den79.shtml', 'sword': ['406', '273', '829', '597', '274', '840', '315', '275', '830', '598', '407', '841-gi'], 'shield': ['406', '270', '829', '597', '271', '840', '315', '272', '830', '598', '407', '842-gi']}
-
-Dusty Bowl
-https://www.serebii.net/swordshield/den/th/dustybowl-1.jpg
-{'number': 'Den 10', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den10.shtml', 'sword': ['236', '759', '852', '674', '083-g', '539', '760', '675', '701', '865', '853', '870'], 'shield': ['236', '759', '852', '674', '759', '538', '760', '675', '701', '760', '853', '870']}
-{'number': 'Den 48', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den48.shtml', 'sword': ['447', '066', '559', '759', '760', '870', '067', '560', '068', '766', '448', '475'], 'shield': ['447', '066', '453', '759', '760', '870', '067', '454', '068', '701', '448', '475']}
-
-Dusty Bowl
-https://www.serebii.net/swordshield/den/th/dustybowl-2.jpg
-{'number': 'Den 36', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den36.shtml', 'sword': ['827', '263-g', '509', '859', '633', '828', '264-g', '860', '861', '634', '862', '635'], 'shield': ['827', '263-g', '509', '859', '629', '828', '264-g', '860', '861', '630', '862', '248']}
-{'number': 'Den 88', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den88.shtml', 'sword': ['827', '263-g', '559', '859', '510', '264-g', '860', '828', '675', '560', '635', '861-gi'], 'shield': ['827', '263-g', '629', '859', '510', '264-g', '860', '828', '675', '630', '248', '861-gi']}
-
-Dusty Bowl
-https://www.serebii.net/swordshield/den/th/dustybowl-3.jpg
-{'number': 'Den 17', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den17.shtml', 'sword': ['843', '562-g', '449', '220', '328', '221', '329', '618-g', '867', '450', '330', '844'], 'shield': ['843', '562-g', '449', '328', '220', '221', '618-g', '329', '867', '330', '450', '844']}
-{'number': 'Den 93', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den93.shtml', 'sword': ['194', '339', '562-g', '622', '536', '195', '618-g', '623', '423-e', '537', '464', '844-gi'], 'shield': ['194', '339', '562-g', '622', '536', '195', '618-g', '623', '423-e', '537', '464', '844-gi']}
-
-Dusty Bowl
-https://www.serebii.net/swordshield/den/th/dustybowl-4.jpg
-{'number': 'Den 11', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den11.shtml', 'sword': ['599', '052-g', '436', '597', '624', '878', '600', '863', '437', '625', '601', '879'], 'shield': ['599', '052-g', '436', '597', '624', '878', '600', '863', '437', '625', '601', '879']}
-{'number': 'Den 49', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den49.shtml', 'sword': ['052-g', '436', '624', '597', '679', '437', '863', '598', '625', '618-g', '879', '884'], 'shield': ['052-g', '436', '624', '597', '679', '437', '863', '598', '625', '618-g', '879', '884']}
-
-Dusty Bowl
-https://www.serebii.net/swordshield/den/th/dustybowl-5.jpg
-{'number': 'Den 9', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den9.shtml', 'sword': ['833', '194', '535', '341', '090', '536', '834', '195', '771', '091', '537', '342'], 'shield': ['833', '194', '535', '341', '090', '536', '834', '195', '771', '091', '537', '342']}
-{'number': 'Den 75', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den75.shtml', 'sword': ['129', '751', '194', '339', '098', '746', '099', '340', '211', '195', '752', '130'], 'shield': ['129', '751', '194', '339', '098', '746', '099', '340', '211', '195', '752', '130']}
-
-Dusty Bowl
-https://www.serebii.net/swordshield/den/th/dustybowl-6.jpg
-{'number': 'Den 21', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den21.shtml', 'sword': ['582', '220', '459', '712', '225', '583', '221', '713', '460', '091', '584', '131'], 'shield': ['582', '220', '459', '712', '225', '583', '221', '713', '460', '091', '584', '131']}
-{'number': 'Den 55', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den55.shtml', 'sword': ['582', '554-g', '122-g', '712', '361', '225', '713', '362', '584', '866', '131', '555-g'], 'shield': ['582', '613', '122-g', '712', '361', '225', '713', '362', '584', '866', '131', '875']}
-
-Dusty Bowl
-https://www.serebii.net/swordshield/den/th/dustybowl-7.jpg
-{'number': 'Den 20', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den20.shtml', 'sword': ['037', '850', '757', '607', '554-g', '758', '838', '038', '324', '851', '839', '555-g'], 'shield': ['058', '850', '757', '607', '324', '838', '758', '059', '324', '851', '839', '059']}
-{'number': 'Den 54', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den54.shtml', 'sword': ['037', '850', '607', '757', '838', '608', '631', '324', '038', '609', '839', '776'], 'shield': ['058', '850', '607', '757', '838', '631', '608', '324', '059', '609', '839', '758']}
-
-Dusty Bowl
-https://www.serebii.net/swordshield/den/th/dustybowl-8.jpg
-{'number': 'Den 17', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den17.shtml', 'sword': ['843', '562-g', '449', '220', '328', '221', '329', '618-g', '867', '450', '330', '844'], 'shield': ['843', '562-g', '449', '328', '220', '221', '618-g', '329', '867', '330', '450', '844']}
-{'number': 'Den 52', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den52.shtml', 'sword': ['194', '339', '562-g', '622', '536', '195', '618-g', '623', '423-e', '537', '867', '464'], 'shield': ['194', '339', '562-g', '622', '536', '195', '618-g', '623', '423-e', '537', '867', '464']}
-
-Dusty Bowl
-https://www.serebii.net/swordshield/den/th/dustybowl-9.jpg
-{'number': 'Den 15', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den15.shtml', 'sword': ['837', '524', '557', '688', '838', '525', '558', '689', '095', '839', '526', '464'], 'shield': ['837', '557', '524', '688', '838', '525', '558', '689', '839', '526', '095', '464']}
-{'number': 'Den 93', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den93.shtml', 'sword': ['194', '339', '562-g', '622', '536', '195', '618-g', '623', '423-e', '537', '464', '844-gi'], 'shield': ['194', '339', '562-g', '622', '536', '195', '618-g', '623', '423-e', '537', '464', '844-gi']}
-
-East Lake Axewell
-https://www.serebii.net/swordshield/den/th/eastlakeaxewell-1.jpg
-{'number': 'Den 39', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den39.shtml', 'sword': ['659', '163', '519', '572', '694', '759', '660', '164', '521', '695', '573', '760'], 'shield': ['659', '163', '519', '572', '694', '759', '660', '164', '521', '695', '573', '760']}
-{'number': 'Den 65', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den65.shtml', 'sword': ['659', '519', '819', '133', '520', '831', '521', '832', '628', '876', '133', '143'], 'shield': ['659', '519', '819', '133', '520', '831', '521', '832', '765', '876-f', '133', '143']}
-
-East Lake Axewell
-https://www.serebii.net/swordshield/den/th/eastlakeaxewell-2.jpg
-{'number': 'Den 31', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den31.shtml', 'sword': ['519', '163', '177', '627', '527', '520', '521', '164', '528', '178', '628', '561'], 'shield': ['519', '163', '177', '629', '527', '520', '521', '164', '528', '178', '630', '561']}
-{'number': 'Den 61', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den61.shtml', 'sword': ['177', '163', '821', '278', '012', '822', '164', '279', '178', '701', '823', '225'], 'shield': ['177', '163', '821', '278', '012', '822', '164', '279', '178', '701', '823', '225']}
-
-East Lake Axewell
-https://www.serebii.net/swordshield/den/th/eastlakeaxewell-3.jpg
-{'number': 'Den 29', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den29.shtml', 'sword': ['434', '568', '451', '747', '043', '315', '211', '452', '045', '748', '569', '435'], 'shield': ['434', '568', '451', '043', '747', '315', '211', '452', '045', '435', '569', '748']}
-{'number': 'Den 86', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den86.shtml', 'sword': ['434', '568', '451', '109', '747', '848', '452', '849', '435', '110-g', '748', '569-gi'], 'shield': ['434', '568', '451', '109', '757', '848', '452', '849', '435', '110-g', '758', '569-gi']}
-
-East Lake Axewell
-https://www.serebii.net/swordshield/den/th/eastlakeaxewell-4.jpg
-{'number': 'Den 31', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den31.shtml', 'sword': ['519', '163', '177', '627', '527', '520', '521', '164', '528', '178', '628', '561'], 'shield': ['519', '163', '177', '629', '527', '520', '521', '164', '528', '178', '630', '561']}
-{'number': 'Den 61', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den61.shtml', 'sword': ['177', '163', '821', '278', '012', '822', '164', '279', '178', '701', '823', '225'], 'shield': ['177', '163', '821', '278', '012', '822', '164', '279', '178', '701', '823', '225']}
-
-East Lake Axewell
-https://www.serebii.net/swordshield/den/th/eastlakeaxewell-5.jpg
-{'number': 'Den 7', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den7.shtml', 'sword': ['129', '458', '223', '170', '320', '550', '224', '226', '171', '321', '746', '130'], 'shield': ['129', '458', '223', '170', '320', '550', '224', '226', '171', '321', '746', '130']}
-{'number': 'Den 44', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den44.shtml', 'sword': ['129', '349', '846', '833', '747', '550', '211', '748', '771', '130', '131', '350'], 'shield': ['129', '349', '846', '833', '747', '550', '211', '748', '771', '130', '131', '350']}
-
-Giant's Cap
-https://www.serebii.net/swordshield/den/th/giant'scap-1.jpg
-{'number': 'Den 32', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den32.shtml', 'sword': ['821', '714', '278', '177', '425', '822', '426', '279', '178', '823', '701', '845'], 'shield': ['821', '714', '278', '177', '425', '822', '426', '279', '178', '823', '701', '845']}
-{'number': 'Den 89', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den89.shtml', 'sword': ['177', '163', '821', '278', '012', '822', '164', '279', '178', '701', '561', '823-gi'], 'shield': ['177', '163', '821', '278', '012', '822', '164', '279', '178', '701', '561', '823-gi']}
-
-Giant's Cap
-https://www.serebii.net/swordshield/den/th/giant'scap-2.jpg
-{'number': 'Den 24', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den24.shtml', 'sword': ['172', '309', '595', '170', '737', '025', '025', '310', '171', '596', '738', '026'], 'shield': ['172', '309', '595', '170', '737', '025', '025', '310', '171', '596', '738', '026']}
-{'number': 'Den 78', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den78.shtml', 'sword': ['129', '846', '833', '098', '771', '550', '211', '099', '746', '130', '423-e', '834-gi'], 'shield': ['129', '846', '833', '098', '771', '550', '211', '099', '746', '130', '423-e', '834-gi']}
-
-Giant's Cap
-https://www.serebii.net/swordshield/den/th/giant'scap-3.jpg
-{'number': 'Den 23', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den23.shtml', 'sword': ['361', '872', '554-g', '215', '122-g', '459', '460', '362', '866', '873', '478', '555-g'], 'shield': ['361', '872', '225', '215', '122-g', '459', '460', '362', '866', '873', '478', '875']}
-{'number': 'Den 55', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den55.shtml', 'sword': ['582', '554-g', '122-g', '712', '361', '225', '713', '362', '584', '866', '131', '555-g'], 'shield': ['582', '613', '122-g', '712', '361', '225', '713', '362', '584', '866', '131', '875']}
-
-Giant's Cap
-https://www.serebii.net/swordshield/den/th/giant'scap-4.jpg
-{'number': 'Den 18', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den18.shtml', 'sword': ['037', '850', '757', '607', '554-g', '758', '608', '038', '324', '851', '631', '555-g'], 'shield': ['058', '850', '757', '607', '631', '608', '758', '059', '324', '631', '851', '059']}
-{'number': 'Den 71', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den71.shtml', 'sword': ['037', '850', '607', '037', '838', '608', '631', '324', '059', '038', '609', '136'], 'shield': ['058', '850', '607', '058', '838', '631', '608', '324', '038', '059', '609', '136']}
-
-Giant's Cap
-https://www.serebii.net/swordshield/den/th/giant'scap-5.jpg
-{'number': 'Den 30', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den30.shtml', 'sword': ['848', '092', '451', '043', '044', '093', '109', '211', '045', '315', '849', '110-g'], 'shield': ['848', '092', '451', '043', '044', '093', '109', '211', '045', '315', '849', '110-g']}
-{'number': 'Den 60', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den60.shtml', 'sword': ['434', '568', '451', '109', '747', '848', '569', '452', '849', '435', '110-g', '748'], 'shield': ['434', '568', '451', '109', '757', '848', '569', '452', '849', '435', '110-g', '758']}
-
-Giant's Mirror
-https://www.serebii.net/swordshield/den/th/giant'smirror-1.jpg
-{'number': 'Den 28', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den28.shtml', 'sword': ['710', '708', '710', '755', '710', '315', '756', '556', '709', '711', '781', '710'], 'shield': ['710', '708', '710', '755', '710', '315', '756', '556', '709', '711', '781', '710']}
-{'number': 'Den 43', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den43.shtml', 'sword': ['092', '562-g', '854', '355', '093', '710', '356', '867', '855', '711', '477', '094'], 'shield': ['092', '562-g', '854', '355', '093', '222-g', '356', '302', '867', '864', '477', '094']}
-
-Giant's Mirror
-https://www.serebii.net/swordshield/den/th/giant'smirror-2.jpg
-{'number': 'Den 42', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den42.shtml', 'sword': ['422-e', '098', '341', '833', '688', '771', '099', '342', '689', '423-e', '593', '834'], 'shield': ['422-e', '098', '341', '833', '688', '771', '099', '342', '689', '423-e', '593', '834']}
-{'number': 'Den 67', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den67.shtml', 'sword': ['458', '341', '846', '833', '747', '550', '342', '748', '771', '226', '131', '134'], 'shield': ['458', '341', '846', '833', '747', '550', '342', '748', '771', '226', '131', '134']}
-
-Giant's Mirror
-https://www.serebii.net/swordshield/den/th/giant'smirror-3.jpg
-{'number': 'Den 25', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den25.shtml', 'sword': ['835', '694', '848', '170', '025', '171', '836', '695', '849', '871', '777', '877'], 'shield': ['835', '694', '848', '170', '025', '171', '836', '695', '849', '871', '777', '877']}
-{'number': 'Den 72', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den72.shtml', 'sword': ['835', '848', '025', '694', '170', '171', '836', '849', '695', '738', '025', '135'], 'shield': ['835', '848', '025', '694', '170', '171', '836', '849', '695', '738', '025', '135']}
-
-Giant's Mirror
-https://www.serebii.net/swordshield/den/th/giant'smirror-4.jpg
-{'number': 'Den 36', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den36.shtml', 'sword': ['827', '263-g', '509', '859', '633', '828', '264-g', '860', '861', '634', '862', '635'], 'shield': ['827', '263-g', '509', '859', '629', '828', '264-g', '860', '861', '630', '862', '248']}
-{'number': 'Den 69', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den69.shtml', 'sword': ['827', '263-g', '686', '624', '510', '264-g', '828', '675', '625', '687', '862', '197'], 'shield': ['827', '263-g', '686', '624', '510', '264-g', '828', '675', '625', '687', '862', '197']}
-
-Giant's Mirror
-https://www.serebii.net/swordshield/den/th/giant'smirror-5.jpg
-{'number': 'Den 27', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den27.shtml', 'sword': ['406', '829', '546', '840', '420', '315', '597', '598', '421', '830', '547', '841'], 'shield': ['406', '829', '546', '840', '420', '315', '597', '598', '421', '830', '547', '842']}
-{'number': 'Den 70', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den70.shtml', 'sword': ['420', '761', '829', '546', '762', '597', '421', '598', '830', '763', '547', '470'], 'shield': ['420', '761', '829', '546', '762', '597', '421', '598', '830', '763', '547', '470']}
-
-Giant's Seat
-https://www.serebii.net/swordshield/den/th/giant'sseat-1.jpg
-{'number': 'Den 11', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den11.shtml', 'sword': ['599', '052-g', '436', '597', '624', '878', '600', '863', '437', '625', '601', '879'], 'shield': ['599', '052-g', '436', '597', '624', '878', '600', '863', '437', '625', '601', '879']}
-{'number': 'Den 84', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den84.shtml', 'sword': ['447', '436', '624', '599', '095', '632', '600', '437', '625', '208', '601', '884-gi'], 'shield': ['447', '436', '624', '599', '095', '600', '632', '437', '625', '208', '601', '884-gi']}
-
-Giant's Seat
-https://www.serebii.net/swordshield/den/th/giant'sseat-2.jpg
-{'number': 'Den 11', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den11.shtml', 'sword': ['599', '052-g', '436', '597', '624', '878', '600', '863', '437', '625', '601', '879'], 'shield': ['599', '052-g', '436', '597', '624', '878', '600', '863', '437', '625', '601', '879']}
-{'number': 'Den 49', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den49.shtml', 'sword': ['052-g', '436', '624', '597', '679', '437', '863', '598', '625', '618-g', '879', '884'], 'shield': ['052-g', '436', '624', '597', '679', '437', '863', '598', '625', '618-g', '879', '884']}
-
-Giant's Seat
-https://www.serebii.net/swordshield/den/th/giant'sseat-3.jpg
-{'number': 'Den 12', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den12.shtml', 'sword': ['599', '436', '597', '624', '599', '436', '208', '598', '437', '625', '303', '777'], 'shield': ['599', '436', '597', '624', '599', '436', '208', '598', '437', '625', '208', '777']}
-{'number': 'Den 45', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den45.shtml', 'sword': ['447', '436', '624', '599', '095', '632', '600', '437', '625', '208', '601', '448'], 'shield': ['447', '436', '624', '599', '095', '600', '632', '437', '625', '208', '601', '448']}
-
-Giant's Seat
-https://www.serebii.net/swordshield/den/th/giant'sseat-4.jpg
-{'number': 'Den 15', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den15.shtml', 'sword': ['837', '524', '557', '688', '838', '525', '558', '689', '095', '839', '526', '464'], 'shield': ['837', '557', '524', '688', '838', '525', '558', '689', '839', '526', '095', '464']}
-{'number': 'Den 51', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den51.shtml', 'sword': ['557', '438', '837', '688', '838', '185', '689', '095', '558', '839', '208', '874'], 'shield': ['557', '438', '837', '524', '838', '246', '247', '095', '558', '839', '208', '248']}
-
-Giant's Seat
-https://www.serebii.net/swordshield/den/th/giant'sseat-5.jpg
-{'number': 'Den 15', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den15.shtml', 'sword': ['837', '524', '557', '688', '838', '525', '558', '689', '095', '839', '526', '464'], 'shield': ['837', '557', '524', '688', '838', '525', '558', '689', '839', '526', '095', '464']}
-{'number': 'Den 83', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den83.shtml', 'sword': ['557', '438', '837', '688', '838', '185', '689', '095', '558', '208', '874', '839-gi'], 'shield': ['582', '613', '122-g', '712', '361', '225', '713', '362', '584', '866', '875', '131-gi']}
-
-Hammerlocke Hills
-https://www.serebii.net/swordshield/den/th/hammerlockehills-1.jpg
-{'number': 'Den 14', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den14.shtml', 'sword': ['439', '360', '177', '343', '436', '122-g', '561', '178', '876', '344', '866', '202'], 'shield': ['439', '360', '177', '343', '436', '122-g', '561', '178', '876-f', '344', '866', '202']}
-{'number': 'Den 68', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den68.shtml', 'sword': ['686', '436', '122-g', '527', '856', '857', '437', '528', '687', '866', '858', '196'], 'shield': ['686', '436', '122-g', '527', '856', '857', '437', '528', '687', '866', '858', '196']}
-
-Hammerlocke Hills
-https://www.serebii.net/swordshield/den/th/hammerlockehills-2.jpg
-{'number': 'Den 12', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den12.shtml', 'sword': ['599', '436', '597', '624', '599', '436', '208', '598', '437', '625', '303', '777'], 'shield': ['599', '436', '597', '624', '599', '436', '208', '598', '437', '625', '208', '777']}
-{'number': 'Den 45', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den45.shtml', 'sword': ['447', '436', '624', '599', '095', '632', '600', '437', '625', '208', '601', '448'], 'shield': ['447', '436', '624', '599', '095', '600', '632', '437', '625', '208', '601', '448']}
-
-Hammerlocke Hills
-https://www.serebii.net/swordshield/den/th/hammerlockehills-3.jpg
-{'number': 'Den 32', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den32.shtml', 'sword': ['821', '714', '278', '177', '425', '822', '426', '279', '178', '823', '701', '845'], 'shield': ['821', '714', '278', '177', '425', '822', '426', '279', '178', '823', '701', '845']}
-{'number': 'Den 61', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den61.shtml', 'sword': ['177', '163', '821', '278', '012', '822', '164', '279', '178', '701', '823', '225'], 'shield': ['177', '163', '821', '278', '012', '822', '164', '279', '178', '701', '823', '225']}
-
-Hammerlocke Hills
-https://www.serebii.net/swordshield/den/th/hammerlockehills-4.jpg
-{'number': 'Den 19', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den19.shtml', 'sword': ['037', '757', '607', '037', '757', '758', '608', '038', '324', '758', '609', '776'], 'shield': ['058', '757', '607', '058', '757', '608', '758', '059', '758', '324', '609', '059']}
-{'number': 'Den 53', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den53.shtml', 'sword': ['037', '850', '607', '004', '005', '038', '631', '324', '038', '758', '851', '006'], 'shield': ['058', '850', '607', '004', '005', '631', '631', '324', '758', '059', '851', '006']}
-
-Hammerlocke Hills
-https://www.serebii.net/swordshield/den/th/hammerlockehills-5.jpg
-{'number': 'Den 33', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den33.shtml', 'sword': ['173', '175', '742', '684', '035', '755', '176', '036', '743', '756', '685', '468'], 'shield': ['173', '175', '742', '682', '035', '755', '176', '036', '743', '756', '683', '468']}
-{'number': 'Den 62', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den62.shtml', 'sword': ['175', '755', '859', '280', '176', '756', '860', '303', '282', '468', '861', '778'], 'shield': ['175', '755', '859', '280', '176', '756', '860', '078-g', '282', '468', '861', '778']}
-
-Hammerlocke Hills
-https://www.serebii.net/swordshield/den/th/hammerlockehills-6.jpg
-{'number': 'Den 30', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den30.shtml', 'sword': ['848', '092', '451', '043', '044', '093', '109', '211', '045', '315', '849', '110-g'], 'shield': ['848', '092', '451', '043', '044', '093', '109', '211', '045', '315', '849', '110-g']}
-{'number': 'Den 57', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den57.shtml', 'sword': ['172', '309', '848', '694', '595', '025', '025', '479-m', '479-s', '479-w', '479-f', '479-h'], 'shield': ['172', '309', '848', '694', '595', '025', '025', '479-m', '479-s', '479-w', '479-f', '479-h']}
-
-Hammerlocke Hills
-https://www.serebii.net/swordshield/den/th/hammerlockehills-7.jpg
-{'number': 'Den 23', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den23.shtml', 'sword': ['361', '872', '554-g', '215', '122-g', '459', '460', '362', '866', '873', '478', '555-g'], 'shield': ['361', '872', '225', '215', '122-g', '459', '460', '362', '866', '873', '478', '875']}
-{'number': 'Den 73', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den73.shtml', 'sword': ['582', '872', '122-g', '712', '361', '583', '713', '873', '584', '866', '478', '471'], 'shield': ['582', '872', '122-g', '712', '361', '583', '713', '873', '584', '866', '478', '471']}
-
-Lake of Outrage
-https://www.serebii.net/swordshield/den/th/lakeofoutrage-1.jpg
-{'number': 'Den 25', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den25.shtml', 'sword': ['835', '694', '848', '170', '025', '171', '836', '695', '849', '871', '777', '877'], 'shield': ['835', '694', '848', '170', '025', '171', '836', '695', '849', '871', '777', '877']}
-{'number': 'Den 56', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den56.shtml', 'sword': ['835', '848', '025', '595', '170', '171', '836', '849', '871', '596', '777', '877'], 'shield': ['835', '848', '025', '595', '170', '171', '836', '849', '871', '596', '777', '877']}
-
-Lake of Outrage
-https://www.serebii.net/swordshield/den/th/lakeofoutrage-2.jpg
-{'number': 'Den 8', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den8.shtml', 'sword': ['833', '846', '422-e', '751', '320', '550', '746', '834', '847', '752', '423-e', '321'], 'shield': ['833', '846', '422-e', '751', '320', '550', '746', '834', '847', '752', '423-e', '321']}
-{'number': 'Den 44', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den44.shtml', 'sword': ['129', '349', '846', '833', '747', '550', '211', '748', '771', '130', '131', '350'], 'shield': ['129', '349', '846', '833', '747', '550', '211', '748', '771', '130', '131', '350']}
-
-Lake of Outrage
-https://www.serebii.net/swordshield/den/th/lakeofoutrage-3.jpg
-{'number': 'Den 18', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den18.shtml', 'sword': ['037', '850', '757', '607', '554-g', '758', '608', '038', '324', '851', '631', '555-g'], 'shield': ['058', '850', '757', '607', '631', '608', '758', '059', '324', '631', '851', '059']}
-{'number': 'Den 77', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den77.shtml', 'sword': ['037', '850', '607', '004', '005', '038', '631', '324', '038', '758', '851', '006-gi'], 'shield': ['058', '850', '607', '004', '005', '631', '631', '324', '758', '059', '851', '006-gi']}
-
-Lake of Outrage
-https://www.serebii.net/swordshield/den/th/lakeofoutrage-4.jpg
-{'number': 'Den 34', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den34.shtml', 'sword': ['439', '868', '859', '280', '035', '281', '860', '036', '282', '869', '303', '861'], 'shield': ['439', '868', '859', '280', '035', '281', '860', '036', '282', '869', '078-g', '861']}
-{'number': 'Den 74', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den74.shtml', 'sword': ['175', '684', '859', '280', '176', '860', '685', '868', '282', '861', '468', '700'], 'shield': ['175', '682', '859', '280', '176', '860', '683', '868', '282', '861', '468', '700']}
-
-Motostoke Riverbank
-https://www.serebii.net/swordshield/den/th/motostokeriverbank-1.jpg
-{'number': 'Den 40', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den40.shtml', 'sword': ['819', '831', '263-g', '446', '876', '820', '264-g', '820', '832', '660', '628', '143'], 'shield': ['819', '831', '263-g', '446', '876-f', '820', '264-g', '820', '832', '660', '765', '143']}
-{'number': 'Den 65', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den65.shtml', 'sword': ['659', '519', '819', '133', '520', '831', '521', '832', '628', '876', '133', '143'], 'shield': ['659', '519', '819', '133', '520', '831', '521', '832', '765', '876-f', '133', '143']}
-
-Motostoke Riverbank
-https://www.serebii.net/swordshield/den/th/motostokeriverbank-2.jpg
-{'number': 'Den 24', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den24.shtml', 'sword': ['172', '309', '595', '170', '737', '025', '025', '310', '171', '596', '738', '026'], 'shield': ['172', '309', '595', '170', '737', '025', '025', '310', '171', '596', '738', '026']}
-{'number': 'Den 56', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den56.shtml', 'sword': ['835', '848', '025', '595', '170', '171', '836', '849', '871', '596', '777', '877'], 'shield': ['835', '848', '025', '595', '170', '171', '836', '849', '871', '596', '777', '877']}
-
-Motostoke Riverbank
-https://www.serebii.net/swordshield/den/th/motostokeriverbank-3.jpg
-{'number': 'Den 14', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den14.shtml', 'sword': ['439', '360', '177', '343', '436', '122-g', '561', '178', '876', '344', '866', '202'], 'shield': ['439', '360', '177', '343', '436', '122-g', '561', '178', '876-f', '344', '866', '202']}
-{'number': 'Den 50', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den50.shtml', 'sword': ['686', '280', '122-g', '527', '856', '857', '281', '528', '858', '866', '687', '282'], 'shield': ['686', '280', '122-g', '527', '856', '857', '281', '528', '858', '866', '687', '282']}
-
-Motostoke Riverbank
-https://www.serebii.net/swordshield/den/th/motostokeriverbank-4.jpg
-{'number': 'Den 30', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den30.shtml', 'sword': ['848', '092', '451', '043', '044', '093', '109', '211', '045', '315', '849', '110-g'], 'shield': ['848', '092', '451', '043', '044', '093', '109', '211', '045', '315', '849', '110-g']}
-{'number': 'Den 60', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den60.shtml', 'sword': ['434', '568', '451', '109', '747', '848', '569', '452', '849', '435', '110-g', '748'], 'shield': ['434', '568', '451', '109', '757', '848', '569', '452', '849', '435', '110-g', '758']}
-
-North Lake Miloch
-https://www.serebii.net/swordshield/den/th/northlakemiloch-1.jpg
-{'number': 'Den 29', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den29.shtml', 'sword': ['434', '568', '451', '747', '043', '315', '211', '452', '045', '748', '569', '435'], 'shield': ['434', '568', '451', '043', '747', '315', '211', '452', '045', '435', '569', '748']}
-{'number': 'Den 60', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den60.shtml', 'sword': ['434', '568', '451', '109', '747', '848', '569', '452', '849', '435', '110-g', '748'], 'shield': ['434', '568', '451', '109', '757', '848', '569', '452', '849', '435', '110-g', '758']}
-
-North Lake Miloch
-https://www.serebii.net/swordshield/den/th/northlakemiloch-2.jpg
-{'number': 'Den 10', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den10.shtml', 'sword': ['236', '759', '852', '674', '083-g', '539', '760', '675', '701', '865', '853', '870'], 'shield': ['236', '759', '852', '674', '759', '538', '760', '675', '701', '760', '853', '870']}
-{'number': 'Den 48', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den48.shtml', 'sword': ['447', '066', '559', '759', '760', '870', '067', '560', '068', '766', '448', '475'], 'shield': ['447', '066', '453', '759', '760', '870', '067', '454', '068', '701', '448', '475']}
-
-North Lake Miloch
-https://www.serebii.net/swordshield/den/th/northlakemiloch-3.jpg
-{'number': 'Den 10', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den10.shtml', 'sword': ['236', '759', '852', '674', '083-g', '539', '760', '675', '701', '865', '853', '870'], 'shield': ['236', '759', '852', '674', '759', '538', '760', '675', '701', '760', '853', '870']}
-{'number': 'Den 48', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den48.shtml', 'sword': ['447', '066', '559', '759', '760', '870', '067', '560', '068', '766', '448', '475'], 'shield': ['447', '066', '453', '759', '760', '870', '067', '454', '068', '701', '448', '475']}
-
-North Lake Miloch
-https://www.serebii.net/swordshield/den/th/northlakemiloch-4.jpg
-{'number': 'Den 29', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den29.shtml', 'sword': ['434', '568', '451', '747', '043', '315', '211', '452', '045', '748', '569', '435'], 'shield': ['434', '568', '451', '043', '747', '315', '211', '452', '045', '435', '569', '748']}
-{'number': 'Den 60', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den60.shtml', 'sword': ['434', '568', '451', '109', '747', '848', '569', '452', '849', '435', '110-g', '748'], 'shield': ['434', '568', '451', '109', '757', '848', '569', '452', '849', '435', '110-g', '758']}
-
-North Lake Miloch
-https://www.serebii.net/swordshield/den/th/northlakemiloch-5.jpg
-{'number': 'Den 41', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den41.shtml', 'sword': ['535', '090', '170', '747', '536', '846', '091', '171', '746', '537', '847', '748'], 'shield': ['535', '090', '170', '536', '747', '846', '748', '091', '171', '746', '537', '847']}
-{'number': 'Den 76', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den76.shtml', 'sword': ['458', '223', '320', '688', '098', '771', '099', '550', '211', '224', '321', '226'], 'shield': ['458', '223', '320', '688', '098', '771', '099', '550', '211', '224', '321', '226']}
-
-North Lake Miloch
-https://www.serebii.net/swordshield/den/th/northlakemiloch-6.jpg
-{'number': 'Den 41', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den41.shtml', 'sword': ['535', '090', '170', '747', '536', '846', '091', '171', '746', '537', '847', '748'], 'shield': ['535', '090', '170', '536', '747', '846', '748', '091', '171', '746', '537', '847']}
-{'number': 'Den 76', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den76.shtml', 'sword': ['458', '223', '320', '688', '098', '771', '099', '550', '211', '224', '321', '226'], 'shield': ['458', '223', '320', '688', '098', '771', '099', '550', '211', '224', '321', '226']}
-
-Rolling Fields
-https://www.serebii.net/swordshield/den/th/rollingfields-1.jpg
-{'number': 'Den 33', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den33.shtml', 'sword': ['173', '175', '742', '684', '035', '755', '176', '036', '743', '756', '685', '468'], 'shield': ['173', '175', '742', '682', '035', '755', '176', '036', '743', '756', '683', '468']}
-{'number': 'Den 62', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den62.shtml', 'sword': ['175', '755', '859', '280', '176', '756', '860', '303', '282', '468', '861', '778'], 'shield': ['175', '755', '859', '280', '176', '756', '860', '078-g', '282', '468', '861', '778']}
-
-Rolling Fields
-https://www.serebii.net/swordshield/den/th/rollingfields-2.jpg
-{'number': 'Den 3', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den3.shtml', 'sword': ['438', '524', '688', '557', '111', '525', '689', '112', '185', '558', '526', '213'], 'shield': ['438', '688', '524', '557', '111', '525', '689', '112', '185', '526', '558', '213']}
-{'number': 'Den 51', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den51.shtml', 'sword': ['557', '438', '837', '688', '838', '185', '689', '095', '558', '839', '208', '874'], 'shield': ['557', '438', '837', '524', '838', '246', '247', '095', '558', '839', '208', '248']}
-
-Rolling Fields
-https://www.serebii.net/swordshield/den/th/rollingfields-3.jpg
-{'number': 'Den 4', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den4.shtml', 'sword': ['010', '736', '290', '595', '011', '632', '737', '291', '012', '596', '738', '632'], 'shield': ['010', '736', '290', '595', '632', '011', '737', '291', '012', '596', '738', '632']}
-{'number': 'Den 46', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den46.shtml', 'sword': ['767', '824', '588', '751', '616', '557', '825', '826', '752', '768', '589', '292'], 'shield': ['767', '824', '616', '751', '588', '557', '825', '826', '752', '768', '617', '292']}
-
-Rolling Fields
-https://www.serebii.net/swordshield/den/th/rollingfields-4.jpg
-{'number': 'Den 31', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den31.shtml', 'sword': ['519', '163', '177', '627', '527', '520', '521', '164', '528', '178', '628', '561'], 'shield': ['519', '163', '177', '629', '527', '520', '521', '164', '528', '178', '630', '561']}
-{'number': 'Den 90', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den90.shtml', 'sword': ['767', '824', '588', '751', '616', '557', '825', '826', '752', '768', '589', '012-gi'], 'shield': ['767', '824', '616', '751', '588', '557', '825', '826', '752', '768', '617', '012-gi']}
-
-Rolling Fields
-https://www.serebii.net/swordshield/den/th/rollingfields-5.jpg
-{'number': 'Den 39', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den39.shtml', 'sword': ['659', '163', '519', '572', '694', '759', '660', '164', '521', '695', '573', '760'], 'shield': ['659', '163', '519', '572', '694', '759', '660', '164', '521', '695', '573', '760']}
-{'number': 'Den 65', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den65.shtml', 'sword': ['659', '519', '819', '133', '520', '831', '521', '832', '628', '876', '133', '143'], 'shield': ['659', '519', '819', '133', '520', '831', '521', '832', '765', '876-f', '133', '143']}
-
-Rolling Fields
-https://www.serebii.net/swordshield/den/th/rollingfields-6.jpg
-{'number': 'Den 16', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den16.shtml', 'sword': ['050', '749', '290', '529', '095', '339', '208', '340', '660', '051', '530', '750'], 'shield': ['050', '749', '290', '529', '095', '339', '208', '340', '660', '051', '530', '750']}
-{'number': 'Den 52', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den52.shtml', 'sword': ['194', '339', '562-g', '622', '536', '195', '618-g', '623', '423-e', '537', '867', '464'], 'shield': ['194', '339', '562-g', '622', '536', '195', '618-g', '623', '423-e', '537', '867', '464']}
-
-Rolling Fields
-https://www.serebii.net/swordshield/den/th/rollingfields-7.jpg
-{'number': 'Den 37', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den37.shtml', 'sword': ['714', '328', '610', '714', '782', '329', '783', '611', '612', '330', '776', '784'], 'shield': ['714', '610', '328', '714', '704', '329', '611', '705', '330', '612', '780', '706']}
-{'number': 'Den 64', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den64.shtml', 'sword': ['328', '840', '610', '782', '885', '611', '783', '776', '784', '886', '612', '887'], 'shield': ['610', '840', '328', '704', '885', '329', '705', '780', '706', '886', '330', '887']}
-
-Rolling Fields
-https://www.serebii.net/swordshield/den/th/rollingfields-8.jpg
-{'number': 'Den 31', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den31.shtml', 'sword': ['519', '163', '177', '627', '527', '520', '521', '164', '528', '178', '628', '561'], 'shield': ['519', '163', '177', '629', '527', '520', '521', '164', '528', '178', '630', '561']}
-{'number': 'Den 90', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den90.shtml', 'sword': ['767', '824', '588', '751', '616', '557', '825', '826', '752', '768', '589', '012-gi'], 'shield': ['767', '824', '616', '751', '588', '557', '825', '826', '752', '768', '617', '012-gi']}
-
-Rolling Fields
-https://www.serebii.net/swordshield/den/th/rollingfields-9.jpg
-{'number': 'Den 1', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den1.shtml', 'sword': ['236', '066', '532', '559', '067', '533', '106', '107', '560', '534', '068', '237'], 'shield': ['236', '066', '532', '453', '533', '067', '107', '106', '454', '237', '068', '534']}
-{'number': 'Den 48', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den48.shtml', 'sword': ['447', '066', '559', '759', '760', '870', '067', '560', '068', '766', '448', '475'], 'shield': ['447', '066', '453', '759', '760', '870', '067', '454', '068', '701', '448', '475']}
-
-South Lake Miloch
-https://www.serebii.net/swordshield/den/th/southlakemiloch-1.jpg
-{'number': 'Den 5', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den5.shtml', 'sword': ['010', '415', '742', '824', '595', '011', '825', '596', '012', '743', '416', '826'], 'shield': ['010', '415', '742', '824', '595', '011', '825', '596', '012', '743', '416', '826']}
-{'number': 'Den 46', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den46.shtml', 'sword': ['767', '824', '588', '751', '616', '557', '825', '826', '752', '768', '589', '292'], 'shield': ['767', '824', '616', '751', '588', '557', '825', '826', '752', '768', '617', '292']}
-
-South Lake Miloch
-https://www.serebii.net/swordshield/den/th/southlakemiloch-2.jpg
-{'number': 'Den 1', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den1.shtml', 'sword': ['236', '066', '532', '559', '067', '533', '106', '107', '560', '534', '068', '237'], 'shield': ['236', '066', '532', '453', '533', '067', '107', '106', '454', '237', '068', '534']}
-{'number': 'Den 43', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den43.shtml', 'sword': ['092', '562-g', '854', '355', '093', '710', '356', '867', '855', '711', '477', '094'], 'shield': ['092', '562-g', '854', '355', '093', '222-g', '356', '302', '867', '864', '477', '094']}
-
-South Lake Miloch
-https://www.serebii.net/swordshield/den/th/southlakemiloch-3.jpg
-{'number': 'Den 8', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den8.shtml', 'sword': ['833', '846', '422-e', '751', '320', '550', '746', '834', '847', '752', '423-e', '321'], 'shield': ['833', '846', '422-e', '751', '320', '550', '746', '834', '847', '752', '423-e', '321']}
-{'number': 'Den 91', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den91.shtml', 'sword': ['341', '098', '846', '833', '747', '550', '342', '748', '771', '130', '131', '099-gi'], 'shield': ['341', '098', '846', '833', '747', '550', '342', '748', '771', '130', '131', '099-gi']}
-
-South Lake Miloch
-https://www.serebii.net/swordshield/den/th/southlakemiloch-4.jpg
-{'number': 'Den 41', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den41.shtml', 'sword': ['535', '090', '170', '747', '536', '846', '091', '171', '746', '537', '847', '748'], 'shield': ['535', '090', '170', '536', '747', '846', '748', '091', '171', '746', '537', '847']}
-{'number': 'Den 76', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den76.shtml', 'sword': ['458', '223', '320', '688', '098', '771', '099', '550', '211', '224', '321', '226'], 'shield': ['458', '223', '320', '688', '098', '771', '099', '550', '211', '224', '321', '226']}
-
-South Lake Miloch
-https://www.serebii.net/swordshield/den/th/southlakemiloch-5.jpg
-{'number': 'Den 41', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den41.shtml', 'sword': ['535', '090', '170', '747', '536', '846', '091', '171', '746', '537', '847', '748'], 'shield': ['535', '090', '170', '536', '747', '846', '748', '091', '171', '746', '537', '847']}
-{'number': 'Den 76', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den76.shtml', 'sword': ['458', '223', '320', '688', '098', '771', '099', '550', '211', '224', '321', '226'], 'shield': ['458', '223', '320', '688', '098', '771', '099', '550', '211', '224', '321', '226']}
-
-Stony Wilderness
-https://www.serebii.net/swordshield/den/th/stonywilderness-1.jpg
-{'number': 'Den 3', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den3.shtml', 'sword': ['438', '524', '688', '557', '111', '525', '689', '112', '185', '558', '526', '213'], 'shield': ['438', '688', '524', '557', '111', '525', '689', '112', '185', '526', '558', '213']}
-{'number': 'Den 51', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den51.shtml', 'sword': ['557', '438', '837', '688', '838', '185', '689', '095', '558', '839', '208', '874'], 'shield': ['557', '438', '837', '524', '838', '246', '247', '095', '558', '839', '208', '248']}
-
-Stony Wilderness
-https://www.serebii.net/swordshield/den/th/stonywilderness-2.jpg
-{'number': 'Den 12', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den12.shtml', 'sword': ['599', '436', '597', '624', '599', '436', '208', '598', '437', '625', '303', '777'], 'shield': ['599', '436', '597', '624', '599', '436', '208', '598', '437', '625', '208', '777']}
-{'number': 'Den 85', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den85.shtml', 'sword': ['052-g', '436', '624', '597', '679', '437', '863', '598', '625', '618-g', '884', '879-gi'], 'shield': ['052-g', '436', '624', '597', '679', '437', '863', '598', '625', '618-g', '884', '879-gi']}
-
-Stony Wilderness
-https://www.serebii.net/swordshield/den/th/stonywilderness-3.jpg
-{'number': 'Den 40', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den40.shtml', 'sword': ['819', '831', '263-g', '446', '876', '820', '264-g', '820', '832', '660', '628', '143'], 'shield': ['819', '831', '263-g', '446', '876-f', '820', '264-g', '820', '832', '660', '765', '143']}
-{'number': 'Den 66', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den66.shtml', 'sword': ['132', '132', '132', '132', '132', '132', '132', '132', '132', '132', '132', '132'], 'shield': ['132', '132', '132', '132', '132', '132', '132', '132', '132', '132', '132', '132']}
-
-Stony Wilderness
-https://www.serebii.net/swordshield/den/th/stonywilderness-4.jpg
-{'number': 'Den 2', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den2.shtml', 'sword': ['280', '517', '677', '574', '605', '281', '678', '575', '518', '576', '338', '282'], 'shield': ['280', '517', '677', '577', '605', '281', '678-f', '578', '518', '579', '337', '282']}
-{'number': 'Den 50', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den50.shtml', 'sword': ['686', '280', '122-g', '527', '856', '857', '281', '528', '858', '866', '687', '282'], 'shield': ['686', '280', '122-g', '527', '856', '857', '281', '528', '858', '866', '687', '282']}
-
-Stony Wilderness
-https://www.serebii.net/swordshield/den/th/stonywilderness-5.jpg
-{'number': 'Den 27', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den27.shtml', 'sword': ['406', '829', '546', '840', '420', '315', '597', '598', '421', '830', '547', '841'], 'shield': ['406', '829', '546', '840', '420', '315', '597', '598', '421', '830', '547', '842']}
-{'number': 'Den 59', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den59.shtml', 'sword': ['420', '273', '829', '546', '274', '755', '421', '756', '830', '547', '275', '781'], 'shield': ['420', '270', '829', '546', '271', '755', '421', '756', '830', '547', '272', '781']}
-
-Stony Wilderness
-https://www.serebii.net/swordshield/den/th/stonywilderness-6.jpg
-{'number': 'Den 35', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den35.shtml', 'sword': ['509', '434', '215', '686', '624', '510', '435', '461', '687', '625', '342', '275'], 'shield': ['509', '434', '215', '686', '624', '510', '435', '461', '687', '625', '342', '302']}
-{'number': 'Den 63', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den63.shtml', 'sword': ['827', '263-g', '559', '215', '510', '264-g', '828', '675', '461', '560', '862', '635'], 'shield': ['827', '263-g', '629', '215', '510', '264-g', '828', '675', '461', '630', '862', '248']}
-
-Stony Wilderness
-https://www.serebii.net/swordshield/den/th/stonywilderness-7.jpg
-{'number': 'Den 22', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den22.shtml', 'sword': ['220', '613', '872', '215', '122-g', '221', '091', '614', '866', '473', '873', '461'], 'shield': ['220', '613', '872', '215', '122-g', '221', '091', '614', '866', '473', '873', '461']}
-{'number': 'Den 55', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den55.shtml', 'sword': ['582', '554-g', '122-g', '712', '361', '225', '713', '362', '584', '866', '131', '555-g'], 'shield': ['582', '613', '122-g', '712', '361', '225', '713', '362', '584', '866', '131', '875']}
-
-Stony Wilderness
-https://www.serebii.net/swordshield/den/th/stonywilderness-8.jpg
-{'number': 'Den 14', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den14.shtml', 'sword': ['439', '360', '177', '343', '436', '122-g', '561', '178', '876', '344', '866', '202'], 'shield': ['439', '360', '177', '343', '436', '122-g', '561', '178', '876-f', '344', '866', '202']}
-{'number': 'Den 50', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den50.shtml', 'sword': ['686', '280', '122-g', '527', '856', '857', '281', '528', '858', '866', '687', '282'], 'shield': ['686', '280', '122-g', '527', '856', '857', '281', '528', '858', '866', '687', '282']}
-
-Stony Wilderness
-https://www.serebii.net/swordshield/den/th/stonywilderness-9.jpg
-{'number': 'Den 18', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den18.shtml', 'sword': ['037', '850', '757', '607', '554-g', '758', '608', '038', '324', '851', '631', '555-g'], 'shield': ['058', '850', '757', '607', '631', '608', '758', '059', '324', '631', '851', '059']}
-{'number': 'Den 54', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den54.shtml', 'sword': ['037', '850', '607', '757', '838', '608', '631', '324', '038', '609', '839', '776'], 'shield': ['058', '850', '607', '757', '838', '631', '608', '324', '059', '609', '839', '758']}
-
-Stony Wilderness
-https://www.serebii.net/swordshield/den/th/stonywilderness-10.jpg
-{'number': 'Den 1', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den1.shtml', 'sword': ['236', '066', '532', '559', '067', '533', '106', '107', '560', '534', '068', '237'], 'shield': ['236', '066', '532', '453', '533', '067', '107', '106', '454', '237', '068', '534']}
-{'number': 'Den 81', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den81.shtml', 'sword': ['447', '066', '759', '083-g', '760', '067', '870', '701', '448', '475', '865', '068-gi'], 'shield': ['679', '562-g', '854', '092', '680', '222-g', '093', '302', '855', '864', '867', '094-gi']}
-
-Stony Wilderness
-https://www.serebii.net/swordshield/den/th/stonywilderness-11.jpg
-{'number': 'Den 6', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den6.shtml', 'sword': ['092', '355', '425', '708', '592', '710', '093', '356', '426', '709', '711', '593'], 'shield': ['092', '355', '425', '708', '592', '710', '093', '356', '426', '709', '711', '593']}
-{'number': 'Den 43', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den43.shtml', 'sword': ['092', '562-g', '854', '355', '093', '710', '356', '867', '855', '711', '477', '094'], 'shield': ['092', '562-g', '854', '355', '093', '222-g', '356', '302', '867', '864', '477', '094']}
-
-Stony Wilderness
-https://www.serebii.net/swordshield/den/th/stonywilderness-12.jpg
-{'number': 'Den 19', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den19.shtml', 'sword': ['037', '757', '607', '037', '757', '758', '608', '038', '324', '758', '609', '776'], 'shield': ['058', '757', '607', '058', '757', '608', '758', '059', '758', '324', '609', '059']}
-{'number': 'Den 80', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den80.shtml', 'sword': ['037', '850', '607', '757', '838', '608', '631', '324', '038', '609', '839', '851-gi'], 'shield': ['058', '850', '607', '757', '838', '608', '631', '324', '059', '609', '839', '851-gi']}
-
-Watchtower Ruins
-https://www.serebii.net/swordshield/den/th/watchtowerruins-1.jpg
-{'number': 'Den 2', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den2.shtml', 'sword': ['280', '517', '677', '574', '605', '281', '678', '575', '518', '576', '338', '282'], 'shield': ['280', '517', '677', '577', '605', '281', '678-f', '578', '518', '579', '337', '282']}
-{'number': 'Den 50', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den50.shtml', 'sword': ['686', '280', '122-g', '527', '856', '857', '281', '528', '858', '866', '687', '282'], 'shield': ['686', '280', '122-g', '527', '856', '857', '281', '528', '858', '866', '687', '282']}
-
-Watchtower Ruins
-https://www.serebii.net/swordshield/den/th/watchtowerruins-2.jpg
-{'number': 'Den 6', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den6.shtml', 'sword': ['092', '355', '425', '708', '592', '710', '093', '356', '426', '709', '711', '593'], 'shield': ['092', '355', '425', '708', '592', '710', '093', '356', '426', '709', '711', '593']}
-{'number': 'Den 47', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den47.shtml', 'sword': ['679', '562-g', '854', '425', '680', '710', '426', '711', '855', '711', '867', '681'], 'shield': ['679', '562-g', '854', '425', '680', '222-g', '426', '302', '855', '864', '867', '681']}
-
-West Lake Axewell
-https://www.serebii.net/swordshield/den/th/westlakeaxewell-1.jpg
-{'number': 'Den 35', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den35.shtml', 'sword': ['509', '434', '215', '686', '624', '510', '435', '461', '687', '625', '342', '275'], 'shield': ['509', '434', '215', '686', '624', '510', '435', '461', '687', '625', '342', '302']}
-{'number': 'Den 63', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den63.shtml', 'sword': ['827', '263-g', '559', '215', '510', '264-g', '828', '675', '461', '560', '862', '635'], 'shield': ['827', '263-g', '629', '215', '510', '264-g', '828', '675', '461', '630', '862', '248']}
-
-West Lake Axewell
-https://www.serebii.net/swordshield/den/th/westlakeaxewell-2.jpg
-{'number': 'Den 9', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den9.shtml', 'sword': ['833', '194', '535', '341', '090', '536', '834', '195', '771', '091', '537', '342'], 'shield': ['833', '194', '535', '341', '090', '536', '834', '195', '771', '091', '537', '342']}
-{'number': 'Den 91', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den91.shtml', 'sword': ['341', '098', '846', '833', '747', '550', '342', '748', '771', '130', '131', '099-gi'], 'shield': ['341', '098', '846', '833', '747', '550', '342', '748', '771', '130', '131', '099-gi']}
-
-West Lake Axewell
-https://www.serebii.net/swordshield/den/th/westlakeaxewell-3.jpg
-{'number': 'Den 9', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den9.shtml', 'sword': ['833', '194', '535', '341', '090', '536', '834', '195', '771', '091', '537', '342'], 'shield': ['833', '194', '535', '341', '090', '536', '834', '195', '771', '091', '537', '342']}
-{'number': 'Den 75', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den75.shtml', 'sword': ['129', '751', '194', '339', '098', '746', '099', '340', '211', '195', '752', '130'], 'shield': ['129', '751', '194', '339', '098', '746', '099', '340', '211', '195', '752', '130']}
-
-West Lake Axewell
-https://www.serebii.net/swordshield/den/th/westlakeaxewell-4.jpg
-{'number': 'Den 9', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den9.shtml', 'sword': ['833', '194', '535', '341', '090', '536', '834', '195', '771', '091', '537', '342'], 'shield': ['833', '194', '535', '341', '090', '536', '834', '195', '771', '091', '537', '342']}
-{'number': 'Den 75', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den75.shtml', 'sword': ['129', '751', '194', '339', '098', '746', '099', '340', '211', '195', '752', '130'], 'shield': ['129', '751', '194', '339', '098', '746', '099', '340', '211', '195', '752', '130']}
-
-West Lake Axewell
-https://www.serebii.net/swordshield/den/th/westlakeaxewell-5.jpg
-{'number': 'Den 42', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den42.shtml', 'sword': ['422-e', '098', '341', '833', '688', '771', '099', '342', '689', '423-e', '593', '834'], 'shield': ['422-e', '098', '341', '833', '688', '771', '099', '342', '689', '423-e', '593', '834']}
-{'number': 'Den 44', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den44.shtml', 'sword': ['129', '349', '846', '833', '747', '550', '211', '748', '771', '130', '131', '350'], 'shield': ['129', '349', '846', '833', '747', '550', '211', '748', '771', '130', '131', '350']}
-
-West Lake Axewell
-https://www.serebii.net/swordshield/den/th/westlakeaxewell-6.jpg
-{'number': 'Den 7', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den7.shtml', 'sword': ['129', '458', '223', '170', '320', '550', '224', '226', '171', '321', '746', '130'], 'shield': ['129', '458', '223', '170', '320', '550', '224', '226', '171', '321', '746', '130']}
-{'number': 'Den 44', 'link': 'https://www.serebii.net/swordshield/maxraidbattles/den44.shtml', 'sword': ['129', '349', '846', '833', '747', '550', '211', '748', '771', '130', '131', '350'], 'shield': ['129', '349', '846', '833', '747', '550', '211', '748', '771', '130', '131', '350']}
-
+{location: "Axew's Eye", img: "https://www.serebii.net/swordshield/den/th/axew'seye-1.jpg", commonID: 38, rareID: 64, position: {x: 0, y: 0}},
+{location: 'Bridge Field', img: 'https://www.serebii.net/swordshield/den/th/bridgefield-1.jpg', commonID: 16, rareID: 52, position: {x: 0, y: 0}},
+{location: 'Bridge Field', img: 'https://www.serebii.net/swordshield/den/th/bridgefield-2.jpg', commonID: 13, rareID: 87, position: {x: 0, y: 0}},
+{location: 'Bridge Field', img: 'https://www.serebii.net/swordshield/den/th/bridgefield-3.jpg', commonID: 27, rareID: 59, position: {x: 0, y: 0}},
+{location: 'Bridge Field', img: 'https://www.serebii.net/swordshield/den/th/bridgefield-4.jpg', commonID: 8, rareID: 44, position: {x: 0, y: 0}},
+{location: 'Bridge Field', img: 'https://www.serebii.net/swordshield/den/th/bridgefield-5.jpg', commonID: 36, rareID: 63, position: {x: 0, y: 0}},
+{location: 'Bridge Field', img: 'https://www.serebii.net/swordshield/den/th/bridgefield-6.jpg', commonID: 4, rareID: 92, position: {x: 0, y: 0}},
+{location: 'Bridge Field', img: 'https://www.serebii.net/swordshield/den/th/bridgefield-7.jpg', commonID: 5, rareID: 46, position: {x: 0, y: 0}},
+{location: 'Bridge Field', img: 'https://www.serebii.net/swordshield/den/th/bridgefield-8.jpg', commonID: 40, rareID: 65, position: {x: 0, y: 0}},
+{location: 'Bridge Field', img: 'https://www.serebii.net/swordshield/den/th/bridgefield-9.jpg', commonID: 34, rareID: 82, position: {x: 0, y: 0}},
+{location: 'Dappled Grove', img: 'https://www.serebii.net/swordshield/den/th/dappledgrove-1.jpg', commonID: 26, rareID: 59, position: {x: 0, y: 0}},
+{location: 'Dappled Grove', img: 'https://www.serebii.net/swordshield/den/th/dappledgrove-2.jpg', commonID: 4, rareID: 92, position: {x: 0, y: 0}},
+{location: 'Dappled Grove', img: 'https://www.serebii.net/swordshield/den/th/dappledgrove-3.jpg', commonID: 26, rareID: 59, position: {x: 0, y: 0}},
+{location: 'Dappled Grove', img: 'https://www.serebii.net/swordshield/den/th/dappledgrove-4.jpg', commonID: 26, rareID: 58, position: {x: 0, y: 0}},
+{location: 'Dappled Grove', img: 'https://www.serebii.net/swordshield/den/th/dappledgrove-5.jpg', commonID: 28, rareID: 79, position: {x: 0, y: 0}},
+{location: 'Dusty Bowl', img: 'https://www.serebii.net/swordshield/den/th/dustybowl-1.jpg', commonID: 10, rareID: 48, position: {x: 0, y: 0}},
+{location: 'Dusty Bowl', img: 'https://www.serebii.net/swordshield/den/th/dustybowl-2.jpg', commonID: 36, rareID: 88, position: {x: 0, y: 0}},
+{location: 'Dusty Bowl', img: 'https://www.serebii.net/swordshield/den/th/dustybowl-3.jpg', commonID: 17, rareID: 93, position: {x: 0, y: 0}},
+{location: 'Dusty Bowl', img: 'https://www.serebii.net/swordshield/den/th/dustybowl-4.jpg', commonID: 11, rareID: 49, position: {x: 0, y: 0}},
+{location: 'Dusty Bowl', img: 'https://www.serebii.net/swordshield/den/th/dustybowl-5.jpg', commonID: 9, rareID: 75, position: {x: 0, y: 0}},
+{location: 'Dusty Bowl', img: 'https://www.serebii.net/swordshield/den/th/dustybowl-6.jpg', commonID: 21, rareID: 55, position: {x: 0, y: 0}},
+{location: 'Dusty Bowl', img: 'https://www.serebii.net/swordshield/den/th/dustybowl-7.jpg', commonID: 20, rareID: 54, position: {x: 0, y: 0}},
+{location: 'Dusty Bowl', img: 'https://www.serebii.net/swordshield/den/th/dustybowl-8.jpg', commonID: 17, rareID: 52, position: {x: 0, y: 0}},
+{location: 'Dusty Bowl', img: 'https://www.serebii.net/swordshield/den/th/dustybowl-9.jpg', commonID: 15, rareID: 93, position: {x: 0, y: 0}},
+{location: 'East Lake Axewell', img: 'https://www.serebii.net/swordshield/den/th/eastlakeaxewell-1.jpg', commonID: 39, rareID: 65, position: {x: 0, y: 0}},
+{location: 'East Lake Axewell', img: 'https://www.serebii.net/swordshield/den/th/eastlakeaxewell-2.jpg', commonID: 31, rareID: 61, position: {x: 0, y: 0}},
+{location: 'East Lake Axewell', img: 'https://www.serebii.net/swordshield/den/th/eastlakeaxewell-3.jpg', commonID: 29, rareID: 86, position: {x: 0, y: 0}},
+{location: 'East Lake Axewell', img: 'https://www.serebii.net/swordshield/den/th/eastlakeaxewell-4.jpg', commonID: 31, rareID: 61, position: {x: 0, y: 0}},
+{location: 'East Lake Axewell', img: 'https://www.serebii.net/swordshield/den/th/eastlakeaxewell-5.jpg', commonID: 7, rareID: 44, position: {x: 0, y: 0}},
+{location: "Giant's Cap", img: "https://www.serebii.net/swordshield/den/th/giant'scap-1.jpg", commonID: 32, rareID: 89, position: {x: 0, y: 0}},
+{location: "Giant's Cap", img: "https://www.serebii.net/swordshield/den/th/giant'scap-2.jpg", commonID: 24, rareID: 78, position: {x: 0, y: 0}},
+{location: "Giant's Cap", img: "https://www.serebii.net/swordshield/den/th/giant'scap-3.jpg", commonID: 23, rareID: 55, position: {x: 0, y: 0}},
+{location: "Giant's Cap", img: "https://www.serebii.net/swordshield/den/th/giant'scap-4.jpg", commonID: 18, rareID: 71, position: {x: 0, y: 0}},
+{location: "Giant's Cap", img: "https://www.serebii.net/swordshield/den/th/giant'scap-5.jpg", commonID: 30, rareID: 60, position: {x: 0, y: 0}},
+{location: "Giant's Mirror", img: "https://www.serebii.net/swordshield/den/th/giant'smirror-1.jpg", commonID: 28, rareID: 43, position: {x: 0, y: 0}},
+{location: "Giant's Mirror", img: "https://www.serebii.net/swordshield/den/th/giant'smirror-2.jpg", commonID: 42, rareID: 67, position: {x: 0, y: 0}},
+{location: "Giant's Mirror", img: "https://www.serebii.net/swordshield/den/th/giant'smirror-3.jpg", commonID: 25, rareID: 72, position: {x: 0, y: 0}},
+{location: "Giant's Mirror", img: "https://www.serebii.net/swordshield/den/th/giant'smirror-4.jpg", commonID: 36, rareID: 69, position: {x: 0, y: 0}},
+{location: "Giant's Mirror", img: "https://www.serebii.net/swordshield/den/th/giant'smirror-5.jpg", commonID: 27, rareID: 70, position: {x: 0, y: 0}},
+{location: "Giant's Seat", img: "https://www.serebii.net/swordshield/den/th/giant'sseat-1.jpg", commonID: 11, rareID: 84, position: {x: 0, y: 0}},
+{location: "Giant's Seat", img: "https://www.serebii.net/swordshield/den/th/giant'sseat-2.jpg", commonID: 11, rareID: 49, position: {x: 0, y: 0}},
+{location: "Giant's Seat", img: "https://www.serebii.net/swordshield/den/th/giant'sseat-3.jpg", commonID: 12, rareID: 45, position: {x: 0, y: 0}},
+{location: "Giant's Seat", img: "https://www.serebii.net/swordshield/den/th/giant'sseat-4.jpg", commonID: 15, rareID: 51, position: {x: 0, y: 0}},
+{location: "Giant's Seat", img: "https://www.serebii.net/swordshield/den/th/giant'sseat-5.jpg", commonID: 15, rareID: 83, position: {x: 0, y: 0}},
+{location: 'Hammerlocke Hills', img: 'https://www.serebii.net/swordshield/den/th/hammerlockehills-1.jpg', commonID: 14, rareID: 68, position: {x: 0, y: 0}},
+{location: 'Hammerlocke Hills', img: 'https://www.serebii.net/swordshield/den/th/hammerlockehills-2.jpg', commonID: 12, rareID: 45, position: {x: 0, y: 0}},
+{location: 'Hammerlocke Hills', img: 'https://www.serebii.net/swordshield/den/th/hammerlockehills-3.jpg', commonID: 32, rareID: 61, position: {x: 0, y: 0}},
+{location: 'Hammerlocke Hills', img: 'https://www.serebii.net/swordshield/den/th/hammerlockehills-4.jpg', commonID: 19, rareID: 53, position: {x: 0, y: 0}},
+{location: 'Hammerlocke Hills', img: 'https://www.serebii.net/swordshield/den/th/hammerlockehills-5.jpg', commonID: 33, rareID: 62, position: {x: 0, y: 0}},
+{location: 'Hammerlocke Hills', img: 'https://www.serebii.net/swordshield/den/th/hammerlockehills-6.jpg', commonID: 30, rareID: 57, position: {x: 0, y: 0}},
+{location: 'Hammerlocke Hills', img: 'https://www.serebii.net/swordshield/den/th/hammerlockehills-7.jpg', commonID: 23, rareID: 73, position: {x: 0, y: 0}},
+{location: 'Lake of Outrage', img: 'https://www.serebii.net/swordshield/den/th/lakeofoutrage-1.jpg', commonID: 25, rareID: 56, position: {x: 0, y: 0}},
+{location: 'Lake of Outrage', img: 'https://www.serebii.net/swordshield/den/th/lakeofoutrage-2.jpg', commonID: 8, rareID: 44, position: {x: 0, y: 0}},
+{location: 'Lake of Outrage', img: 'https://www.serebii.net/swordshield/den/th/lakeofoutrage-3.jpg', commonID: 18, rareID: 77, position: {x: 0, y: 0}},
+{location: 'Lake of Outrage', img: 'https://www.serebii.net/swordshield/den/th/lakeofoutrage-4.jpg', commonID: 34, rareID: 74, position: {x: 0, y: 0}},
+{location: 'Motostoke Riverbank', img: 'https://www.serebii.net/swordshield/den/th/motostokeriverbank-1.jpg', commonID: 40, rareID: 65, position: {x: 0, y: 0}},
+{location: 'Motostoke Riverbank', img: 'https://www.serebii.net/swordshield/den/th/motostokeriverbank-2.jpg', commonID: 24, rareID: 56, position: {x: 0, y: 0}},
+{location: 'Motostoke Riverbank', img: 'https://www.serebii.net/swordshield/den/th/motostokeriverbank-3.jpg', commonID: 14, rareID: 50, position: {x: 0, y: 0}},
+{location: 'Motostoke Riverbank', img: 'https://www.serebii.net/swordshield/den/th/motostokeriverbank-4.jpg', commonID: 30, rareID: 60, position: {x: 0, y: 0}},
+{location: 'North Lake Miloch', img: 'https://www.serebii.net/swordshield/den/th/northlakemiloch-1.jpg', commonID: 29, rareID: 60, position: {x: 0, y: 0}},
+{location: 'North Lake Miloch', img: 'https://www.serebii.net/swordshield/den/th/northlakemiloch-2.jpg', commonID: 10, rareID: 48, position: {x: 0, y: 0}},
+{location: 'North Lake Miloch', img: 'https://www.serebii.net/swordshield/den/th/northlakemiloch-3.jpg', commonID: 10, rareID: 48, position: {x: 0, y: 0}},
+{location: 'North Lake Miloch', img: 'https://www.serebii.net/swordshield/den/th/northlakemiloch-4.jpg', commonID: 29, rareID: 60, position: {x: 0, y: 0}},
+{location: 'North Lake Miloch', img: 'https://www.serebii.net/swordshield/den/th/northlakemiloch-5.jpg', commonID: 41, rareID: 76, position: {x: 0, y: 0}},
+{location: 'North Lake Miloch', img: 'https://www.serebii.net/swordshield/den/th/northlakemiloch-6.jpg', commonID: 41, rareID: 76, position: {x: 0, y: 0}},
+{location: 'Rolling Fields', img: 'https://www.serebii.net/swordshield/den/th/rollingfields-1.jpg', commonID: 33, rareID: 62, position: {x: 0, y: 0}},
+{location: 'Rolling Fields', img: 'https://www.serebii.net/swordshield/den/th/rollingfields-2.jpg', commonID: 3, rareID: 51, position: {x: 0, y: 0}},
+{location: 'Rolling Fields', img: 'https://www.serebii.net/swordshield/den/th/rollingfields-3.jpg', commonID: 4, rareID: 46, position: {x: 0, y: 0}},
+{location: 'Rolling Fields', img: 'https://www.serebii.net/swordshield/den/th/rollingfields-4.jpg', commonID: 31, rareID: 90, position: {x: 0, y: 0}},
+{location: 'Rolling Fields', img: 'https://www.serebii.net/swordshield/den/th/rollingfields-5.jpg', commonID: 39, rareID: 65, position: {x: 0, y: 0}},
+{location: 'Rolling Fields', img: 'https://www.serebii.net/swordshield/den/th/rollingfields-6.jpg', commonID: 16, rareID: 52, position: {x: 0, y: 0}},
+{location: 'Rolling Fields', img: 'https://www.serebii.net/swordshield/den/th/rollingfields-7.jpg', commonID: 37, rareID: 64, position: {x: 0, y: 0}},
+{location: 'Rolling Fields', img: 'https://www.serebii.net/swordshield/den/th/rollingfields-8.jpg', commonID: 31, rareID: 90, position: {x: 0, y: 0}},
+{location: 'Rolling Fields', img: 'https://www.serebii.net/swordshield/den/th/rollingfields-9.jpg', commonID: 1, rareID: 48, position: {x: 0, y: 0}},
+{location: 'South Lake Miloch', img: 'https://www.serebii.net/swordshield/den/th/southlakemiloch-1.jpg', commonID: 5, rareID: 46, position: {x: 0, y: 0}},
+{location: 'South Lake Miloch', img: 'https://www.serebii.net/swordshield/den/th/southlakemiloch-2.jpg', commonID: 1, rareID: 43, position: {x: 0, y: 0}},
+{location: 'South Lake Miloch', img: 'https://www.serebii.net/swordshield/den/th/southlakemiloch-3.jpg', commonID: 8, rareID: 91, position: {x: 0, y: 0}},
+{location: 'South Lake Miloch', img: 'https://www.serebii.net/swordshield/den/th/southlakemiloch-4.jpg', commonID: 41, rareID: 76, position: {x: 0, y: 0}},
+{location: 'South Lake Miloch', img: 'https://www.serebii.net/swordshield/den/th/southlakemiloch-5.jpg', commonID: 41, rareID: 76, position: {x: 0, y: 0}},
+{location: 'Stony Wilderness', img: 'https://www.serebii.net/swordshield/den/th/stonywilderness-1.jpg', commonID: 3, rareID: 51, position: {x: 0, y: 0}},
+{location: 'Stony Wilderness', img: 'https://www.serebii.net/swordshield/den/th/stonywilderness-2.jpg', commonID: 12, rareID: 85, position: {x: 0, y: 0}},
+{location: 'Stony Wilderness', img: 'https://www.serebii.net/swordshield/den/th/stonywilderness-3.jpg', commonID: 40, rareID: 66, position: {x: 0, y: 0}},
+{location: 'Stony Wilderness', img: 'https://www.serebii.net/swordshield/den/th/stonywilderness-4.jpg', commonID: 2, rareID: 50, position: {x: 0, y: 0}},
+{location: 'Stony Wilderness', img: 'https://www.serebii.net/swordshield/den/th/stonywilderness-5.jpg', commonID: 27, rareID: 59, position: {x: 0, y: 0}},
+{location: 'Stony Wilderness', img: 'https://www.serebii.net/swordshield/den/th/stonywilderness-6.jpg', commonID: 35, rareID: 63, position: {x: 0, y: 0}},
+{location: 'Stony Wilderness', img: 'https://www.serebii.net/swordshield/den/th/stonywilderness-7.jpg', commonID: 22, rareID: 55, position: {x: 0, y: 0}},
+{location: 'Stony Wilderness', img: 'https://www.serebii.net/swordshield/den/th/stonywilderness-8.jpg', commonID: 14, rareID: 50, position: {x: 0, y: 0}},
+{location: 'Stony Wilderness', img: 'https://www.serebii.net/swordshield/den/th/stonywilderness-9.jpg', commonID: 18, rareID: 54, position: {x: 0, y: 0}},
+{location: 'Stony Wilderness', img: 'https://www.serebii.net/swordshield/den/th/stonywilderness-10.jpg', commonID: 1, rareID: 81, position: {x: 0, y: 0}},
+{location: 'Stony Wilderness', img: 'https://www.serebii.net/swordshield/den/th/stonywilderness-11.jpg', commonID: 6, rareID: 43, position: {x: 0, y: 0}},
+{location: 'Stony Wilderness', img: 'https://www.serebii.net/swordshield/den/th/stonywilderness-12.jpg', commonID: 19, rareID: 80, position: {x: 0, y: 0}},
+{location: 'Watchtower Ruins', img: 'https://www.serebii.net/swordshield/den/th/watchtowerruins-1.jpg', commonID: 2, rareID: 50, position: {x: 0, y: 0}},
+{location: 'Watchtower Ruins', img: 'https://www.serebii.net/swordshield/den/th/watchtowerruins-2.jpg', commonID: 6, rareID: 47, position: {x: 0, y: 0}},
+{location: 'West Lake Axewell', img: 'https://www.serebii.net/swordshield/den/th/westlakeaxewell-1.jpg', commonID: 35, rareID: 63, position: {x: 0, y: 0}},
+{location: 'West Lake Axewell', img: 'https://www.serebii.net/swordshield/den/th/westlakeaxewell-2.jpg', commonID: 9, rareID: 91, position: {x: 0, y: 0}},
+{location: 'West Lake Axewell', img: 'https://www.serebii.net/swordshield/den/th/westlakeaxewell-3.jpg', commonID: 9, rareID: 75, position: {x: 0, y: 0}},
+{location: 'West Lake Axewell', img: 'https://www.serebii.net/swordshield/den/th/westlakeaxewell-4.jpg', commonID: 9, rareID: 75, position: {x: 0, y: 0}},
+{location: 'West Lake Axewell', img: 'https://www.serebii.net/swordshield/den/th/westlakeaxewell-5.jpg', commonID: 42, rareID: 44, position: {x: 0, y: 0}},
+{location: 'West Lake Axewell', img: 'https://www.serebii.net/swordshield/den/th/westlakeaxewell-6.jpg', commonID: 7, rareID: 44, position: {x: 0, y: 0}},
+{38: {name: 'Den 38', link: 'https://www.serebii.net/swordshield/maxraidbattles/den38.shtml', swordPokemon: ['714', '840', '782', '885', '714', '840', '886', '715', '783', '784', '841', '887'], shieldPokemon: ['714', '840', '704', '885', '714', '840', '886', '715', '705', '706', '842', '887']},
+64: {name: 'Den 64', link: 'https://www.serebii.net/swordshield/maxraidbattles/den64.shtml', swordPokemon: ['328', '840', '610', '782', '885', '611', '783', '776', '784', '886', '612', '887'], shieldPokemon: ['610', '840', '328', '704', '885', '329', '705', '780', '706', '886', '330', '887']},
+16: {name: 'Den 16', link: 'https://www.serebii.net/swordshield/maxraidbattles/den16.shtml', swordPokemon: ['050', '749', '290', '529', '095', '339', '208', '340', '660', '051', '530', '750'], shieldPokemon: ['050', '749', '290', '529', '095', '339', '208', '340', '660', '051', '530', '750']},
+52: {name: 'Den 52', link: 'https://www.serebii.net/swordshield/maxraidbattles/den52.shtml', swordPokemon: ['194', '339', '562-g', '622', '536', '195', '618-g', '623', '423-e', '537', '867', '464'], shieldPokemon: ['194', '339', '562-g', '622', '536', '195', '618-g', '623', '423-e', '537', '867', '464']},
+13: {name: 'Den 13', link: 'https://www.serebii.net/swordshield/maxraidbattles/den13.shtml', swordPokemon: ['439', '824', '177', '856', '825', '857', '561', '178', '876', '561', '826', '858'], shieldPokemon: ['439', '824', '177', '856', '077-g', '857', '561', '178', '876-f', '765', '078-g', '858']},
+87: {name: 'Den 87', link: 'https://www.serebii.net/swordshield/maxraidbattles/den87.shtml', swordPokemon: ['175', '684', '859', '280', '176', '860', '685', '868', '282', '861', '468', '858-gi'], shieldPokemon: ['175', '682', '859', '280', '176', '860', '683', '868', '282', '861', '468', '858-gi']},
+27: {name: 'Den 27', link: 'https://www.serebii.net/swordshield/maxraidbattles/den27.shtml', swordPokemon: ['406', '829', '546', '840', '420', '315', '597', '598', '421', '830', '547', '841'], shieldPokemon: ['406', '829', '546', '840', '420', '315', '597', '598', '421', '830', '547', '842']},
+59: {name: 'Den 59', link: 'https://www.serebii.net/swordshield/maxraidbattles/den59.shtml', swordPokemon: ['420', '273', '829', '546', '274', '755', '421', '756', '830', '547', '275', '781'], shieldPokemon: ['420', '270', '829', '546', '271', '755', '421', '756', '830', '547', '272', '781']},
+8: {name: 'Den 8', link: 'https://www.serebii.net/swordshield/maxraidbattles/den8.shtml', swordPokemon: ['833', '846', '422-e', '751', '320', '550', '746', '834', '847', '752', '423-e', '321'], shieldPokemon: ['833', '846', '422-e', '751', '320', '550', '746', '834', '847', '752', '423-e', '321']},
+44: {name: 'Den 44', link: 'https://www.serebii.net/swordshield/maxraidbattles/den44.shtml', swordPokemon: ['129', '349', '846', '833', '747', '550', '211', '748', '771', '130', '131', '350'], shieldPokemon: ['129', '349', '846', '833', '747', '550', '211', '748', '771', '130', '131', '350']},
+36: {name: 'Den 36', link: 'https://www.serebii.net/swordshield/maxraidbattles/den36.shtml', swordPokemon: ['827', '263-g', '509', '859', '633', '828', '264-g', '860', '861', '634', '862', '635'], shieldPokemon: ['827', '263-g', '509', '859', '629', '828', '264-g', '860', '861', '630', '862', '248']},
+63: {name: 'Den 63', link: 'https://www.serebii.net/swordshield/maxraidbattles/den63.shtml', swordPokemon: ['827', '263-g', '559', '215', '510', '264-g', '828', '675', '461', '560', '862', '635'], shieldPokemon: ['827', '263-g', '629', '215', '510', '264-g', '828', '675', '461', '630', '862', '248']},
+4: {name: 'Den 4', link: 'https://www.serebii.net/swordshield/maxraidbattles/den4.shtml', swordPokemon: ['010', '736', '290', '595', '011', '632', '737', '291', '012', '596', '738', '632'], shieldPokemon: ['010', '736', '290', '595', '632', '011', '737', '291', '012', '596', '738', '632']},
+92: {name: 'Den 92', link: 'https://www.serebii.net/swordshield/maxraidbattles/den92.shtml', swordPokemon: ['767', '824', '588', '751', '616', '557', '825', '826', '752', '768', '589', '826-gi'], shieldPokemon: ['767', '824', '616', '751', '588', '557', '825', '826', '752', '768', '617', '826-gi']},
+5: {name: 'Den 5', link: 'https://www.serebii.net/swordshield/maxraidbattles/den5.shtml', swordPokemon: ['010', '415', '742', '824', '595', '011', '825', '596', '012', '743', '416', '826'], shieldPokemon: ['010', '415', '742', '824', '595', '011', '825', '596', '012', '743', '416', '826']},
+46: {name: 'Den 46', link: 'https://www.serebii.net/swordshield/maxraidbattles/den46.shtml', swordPokemon: ['767', '824', '588', '751', '616', '557', '825', '826', '752', '768', '589', '292'], shieldPokemon: ['767', '824', '616', '751', '588', '557', '825', '826', '752', '768', '617', '292']},
+40: {name: 'Den 40', link: 'https://www.serebii.net/swordshield/maxraidbattles/den40.shtml', swordPokemon: ['819', '831', '263-g', '446', '876', '820', '264-g', '820', '832', '660', '628', '143'], shieldPokemon: ['819', '831', '263-g', '446', '876-f', '820', '264-g', '820', '832', '660', '765', '143']},
+65: {name: 'Den 65', link: 'https://www.serebii.net/swordshield/maxraidbattles/den65.shtml', swordPokemon: ['659', '519', '819', '133', '520', '831', '521', '832', '628', '876', '133', '143'], shieldPokemon: ['659', '519', '819', '133', '520', '831', '521', '832', '765', '876-f', '133', '143']},
+34: {name: 'Den 34', link: 'https://www.serebii.net/swordshield/maxraidbattles/den34.shtml', swordPokemon: ['439', '868', '859', '280', '035', '281', '860', '036', '282', '869', '303', '861'], shieldPokemon: ['439', '868', '859', '280', '035', '281', '860', '036', '282', '869', '078-g', '861']},
+82: {name: 'Den 82', link: 'https://www.serebii.net/swordshield/maxraidbattles/den82.shtml', swordPokemon: ['175', '755', '859', '280', '176', '756', '860', '303', '282', '468', '861', '869-gi'], shieldPokemon: ['175', '077-g', '859', '280', '176', '756', '860', '078-g', '282', '468', '861', '869-gi']},
+26: {name: 'Den 26', link: 'https://www.serebii.net/swordshield/maxraidbattles/den26.shtml', swordPokemon: ['406', '273', '761', '043', '274', '315', '044', '762', '275', '763', '045', '182'], shieldPokemon: ['406', '270', '761', '043', '271', '315', '044', '762', '272', '763', '045', '182']},
+58: {name: 'Den 58', link: 'https://www.serebii.net/swordshield/maxraidbattles/den58.shtml', swordPokemon: ['406', '273', '829', '597', '274', '840', '315', '275', '830', '598', '407', '841'], shieldPokemon: ['406', '270', '829', '597', '271', '840', '315', '272', '830', '598', '407', '842']},
+28: {name: 'Den 28', link: 'https://www.serebii.net/swordshield/maxraidbattles/den28.shtml', swordPokemon: ['710', '708', '710', '755', '710', '315', '756', '556', '709', '711', '781', '710'], shieldPokemon: ['710', '708', '710', '755', '710', '315', '756', '556', '709', '711', '781', '710']},
+79: {name: 'Den 79', link: 'https://www.serebii.net/swordshield/maxraidbattles/den79.shtml', swordPokemon: ['406', '273', '829', '597', '274', '840', '315', '275', '830', '598', '407', '841-gi'], shieldPokemon: ['406', '270', '829', '597', '271', '840', '315', '272', '830', '598', '407', '842-gi']},
+10: {name: 'Den 10', link: 'https://www.serebii.net/swordshield/maxraidbattles/den10.shtml', swordPokemon: ['236', '759', '852', '674', '083-g', '539', '760', '675', '701', '865', '853', '870'], shieldPokemon: ['236', '759', '852', '674', '759', '538', '760', '675', '701', '760', '853', '870']},
+48: {name: 'Den 48', link: 'https://www.serebii.net/swordshield/maxraidbattles/den48.shtml', swordPokemon: ['447', '066', '559', '759', '760', '870', '067', '560', '068', '766', '448', '475'], shieldPokemon: ['447', '066', '453', '759', '760', '870', '067', '454', '068', '701', '448', '475']},
+88: {name: 'Den 88', link: 'https://www.serebii.net/swordshield/maxraidbattles/den88.shtml', swordPokemon: ['827', '263-g', '559', '859', '510', '264-g', '860', '828', '675', '560', '635', '861-gi'], shieldPokemon: ['827', '263-g', '629', '859', '510', '264-g', '860', '828', '675', '630', '248', '861-gi']},
+17: {name: 'Den 17', link: 'https://www.serebii.net/swordshield/maxraidbattles/den17.shtml', swordPokemon: ['843', '562-g', '449', '220', '328', '221', '329', '618-g', '867', '450', '330', '844'], shieldPokemon: ['843', '562-g', '449', '328', '220', '221', '618-g', '329', '867', '330', '450', '844']},
+93: {name: 'Den 93', link: 'https://www.serebii.net/swordshield/maxraidbattles/den93.shtml', swordPokemon: ['194', '339', '562-g', '622', '536', '195', '618-g', '623', '423-e', '537', '464', '844-gi'], shieldPokemon: ['194', '339', '562-g', '622', '536', '195', '618-g', '623', '423-e', '537', '464', '844-gi']},
+11: {name: 'Den 11', link: 'https://www.serebii.net/swordshield/maxraidbattles/den11.shtml', swordPokemon: ['599', '052-g', '436', '597', '624', '878', '600', '863', '437', '625', '601', '879'], shieldPokemon: ['599', '052-g', '436', '597', '624', '878', '600', '863', '437', '625', '601', '879']},
+49: {name: 'Den 49', link: 'https://www.serebii.net/swordshield/maxraidbattles/den49.shtml', swordPokemon: ['052-g', '436', '624', '597', '679', '437', '863', '598', '625', '618-g', '879', '884'], shieldPokemon: ['052-g', '436', '624', '597', '679', '437', '863', '598', '625', '618-g', '879', '884']},
+9: {name: 'Den 9', link: 'https://www.serebii.net/swordshield/maxraidbattles/den9.shtml', swordPokemon: ['833', '194', '535', '341', '090', '536', '834', '195', '771', '091', '537', '342'], shieldPokemon: ['833', '194', '535', '341', '090', '536', '834', '195', '771', '091', '537', '342']},
+75: {name: 'Den 75', link: 'https://www.serebii.net/swordshield/maxraidbattles/den75.shtml', swordPokemon: ['129', '751', '194', '339', '098', '746', '099', '340', '211', '195', '752', '130'], shieldPokemon: ['129', '751', '194', '339', '098', '746', '099', '340', '211', '195', '752', '130']},
+21: {name: 'Den 21', link: 'https://www.serebii.net/swordshield/maxraidbattles/den21.shtml', swordPokemon: ['582', '220', '459', '712', '225', '583', '221', '713', '460', '091', '584', '131'], shieldPokemon: ['582', '220', '459', '712', '225', '583', '221', '713', '460', '091', '584', '131']},
+55: {name: 'Den 55', link: 'https://www.serebii.net/swordshield/maxraidbattles/den55.shtml', swordPokemon: ['582', '554-g', '122-g', '712', '361', '225', '713', '362', '584', '866', '131', '555-g'], shieldPokemon: ['582', '613', '122-g', '712', '361', '225', '713', '362', '584', '866', '131', '875']},
+20: {name: 'Den 20', link: 'https://www.serebii.net/swordshield/maxraidbattles/den20.shtml', swordPokemon: ['037', '850', '757', '607', '554-g', '758', '838', '038', '324', '851', '839', '555-g'], shieldPokemon: ['058', '850', '757', '607', '324', '838', '758', '059', '324', '851', '839', '059']},
+54: {name: 'Den 54', link: 'https://www.serebii.net/swordshield/maxraidbattles/den54.shtml', swordPokemon: ['037', '850', '607', '757', '838', '608', '631', '324', '038', '609', '839', '776'], shieldPokemon: ['058', '850', '607', '757', '838', '631', '608', '324', '059', '609', '839', '758']},
+15: {name: 'Den 15', link: 'https://www.serebii.net/swordshield/maxraidbattles/den15.shtml', swordPokemon: ['837', '524', '557', '688', '838', '525', '558', '689', '095', '839', '526', '464'], shieldPokemon: ['837', '557', '524', '688', '838', '525', '558', '689', '839', '526', '095', '464']},
+39: {name: 'Den 39', link: 'https://www.serebii.net/swordshield/maxraidbattles/den39.shtml', swordPokemon: ['659', '163', '519', '572', '694', '759', '660', '164', '521', '695', '573', '760'], shieldPokemon: ['659', '163', '519', '572', '694', '759', '660', '164', '521', '695', '573', '760']},
+31: {name: 'Den 31', link: 'https://www.serebii.net/swordshield/maxraidbattles/den31.shtml', swordPokemon: ['519', '163', '177', '627', '527', '520', '521', '164', '528', '178', '628', '561'], shieldPokemon: ['519', '163', '177', '629', '527', '520', '521', '164', '528', '178', '630', '561']},
+61: {name: 'Den 61', link: 'https://www.serebii.net/swordshield/maxraidbattles/den61.shtml', swordPokemon: ['177', '163', '821', '278', '012', '822', '164', '279', '178', '701', '823', '225'], shieldPokemon: ['177', '163', '821', '278', '012', '822', '164', '279', '178', '701', '823', '225']},
+29: {name: 'Den 29', link: 'https://www.serebii.net/swordshield/maxraidbattles/den29.shtml', swordPokemon: ['434', '568', '451', '747', '043', '315', '211', '452', '045', '748', '569', '435'], shieldPokemon: ['434', '568', '451', '043', '747', '315', '211', '452', '045', '435', '569', '748']},
+86: {name: 'Den 86', link: 'https://www.serebii.net/swordshield/maxraidbattles/den86.shtml', swordPokemon: ['434', '568', '451', '109', '747', '848', '452', '849', '435', '110-g', '748', '569-gi'], shieldPokemon: ['434', '568', '451', '109', '757', '848', '452', '849', '435', '110-g', '758', '569-gi']},
+7: {name: 'Den 7', link: 'https://www.serebii.net/swordshield/maxraidbattles/den7.shtml', swordPokemon: ['129', '458', '223', '170', '320', '550', '224', '226', '171', '321', '746', '130'], shieldPokemon: ['129', '458', '223', '170', '320', '550', '224', '226', '171', '321', '746', '130']},
+32: {name: 'Den 32', link: 'https://www.serebii.net/swordshield/maxraidbattles/den32.shtml', swordPokemon: ['821', '714', '278', '177', '425', '822', '426', '279', '178', '823', '701', '845'], shieldPokemon: ['821', '714', '278', '177', '425', '822', '426', '279', '178', '823', '701', '845']},
+89: {name: 'Den 89', link: 'https://www.serebii.net/swordshield/maxraidbattles/den89.shtml', swordPokemon: ['177', '163', '821', '278', '012', '822', '164', '279', '178', '701', '561', '823-gi'], shieldPokemon: ['177', '163', '821', '278', '012', '822', '164', '279', '178', '701', '561', '823-gi']},
+24: {name: 'Den 24', link: 'https://www.serebii.net/swordshield/maxraidbattles/den24.shtml', swordPokemon: ['172', '309', '595', '170', '737', '025', '025', '310', '171', '596', '738', '026'], shieldPokemon: ['172', '309', '595', '170', '737', '025', '025', '310', '171', '596', '738', '026']},
+78: {name: 'Den 78', link: 'https://www.serebii.net/swordshield/maxraidbattles/den78.shtml', swordPokemon: ['129', '846', '833', '098', '771', '550', '211', '099', '746', '130', '423-e', '834-gi'], shieldPokemon: ['129', '846', '833', '098', '771', '550', '211', '099', '746', '130', '423-e', '834-gi']},
+23: {name: 'Den 23', link: 'https://www.serebii.net/swordshield/maxraidbattles/den23.shtml', swordPokemon: ['361', '872', '554-g', '215', '122-g', '459', '460', '362', '866', '873', '478', '555-g'], shieldPokemon: ['361', '872', '225', '215', '122-g', '459', '460', '362', '866', '873', '478', '875']},
+18: {name: 'Den 18', link: 'https://www.serebii.net/swordshield/maxraidbattles/den18.shtml', swordPokemon: ['037', '850', '757', '607', '554-g', '758', '608', '038', '324', '851', '631', '555-g'], shieldPokemon: ['058', '850', '757', '607', '631', '608', '758', '059', '324', '631', '851', '059']},
+71: {name: 'Den 71', link: 'https://www.serebii.net/swordshield/maxraidbattles/den71.shtml', swordPokemon: ['037', '850', '607', '037', '838', '608', '631', '324', '059', '038', '609', '136'], shieldPokemon: ['058', '850', '607', '058', '838', '631', '608', '324', '038', '059', '609', '136']},
+30: {name: 'Den 30', link: 'https://www.serebii.net/swordshield/maxraidbattles/den30.shtml', swordPokemon: ['848', '092', '451', '043', '044', '093', '109', '211', '045', '315', '849', '110-g'], shieldPokemon: ['848', '092', '451', '043', '044', '093', '109', '211', '045', '315', '849', '110-g']},
+60: {name: 'Den 60', link: 'https://www.serebii.net/swordshield/maxraidbattles/den60.shtml', swordPokemon: ['434', '568', '451', '109', '747', '848', '569', '452', '849', '435', '110-g', '748'], shieldPokemon: ['434', '568', '451', '109', '757', '848', '569', '452', '849', '435', '110-g', '758']},
+43: {name: 'Den 43', link: 'https://www.serebii.net/swordshield/maxraidbattles/den43.shtml', swordPokemon: ['092', '562-g', '854', '355', '093', '710', '356', '867', '855', '711', '477', '094'], shieldPokemon: ['092', '562-g', '854', '355', '093', '222-g', '356', '302', '867', '864', '477', '094']},
+42: {name: 'Den 42', link: 'https://www.serebii.net/swordshield/maxraidbattles/den42.shtml', swordPokemon: ['422-e', '098', '341', '833', '688', '771', '099', '342', '689', '423-e', '593', '834'], shieldPokemon: ['422-e', '098', '341', '833', '688', '771', '099', '342', '689', '423-e', '593', '834']},
+67: {name: 'Den 67', link: 'https://www.serebii.net/swordshield/maxraidbattles/den67.shtml', swordPokemon: ['458', '341', '846', '833', '747', '550', '342', '748', '771', '226', '131', '134'], shieldPokemon: ['458', '341', '846', '833', '747', '550', '342', '748', '771', '226', '131', '134']},
+25: {name: 'Den 25', link: 'https://www.serebii.net/swordshield/maxraidbattles/den25.shtml', swordPokemon: ['835', '694', '848', '170', '025', '171', '836', '695', '849', '871', '777', '877'], shieldPokemon: ['835', '694', '848', '170', '025', '171', '836', '695', '849', '871', '777', '877']},
+72: {name: 'Den 72', link: 'https://www.serebii.net/swordshield/maxraidbattles/den72.shtml', swordPokemon: ['835', '848', '025', '694', '170', '171', '836', '849', '695', '738', '025', '135'], shieldPokemon: ['835', '848', '025', '694', '170', '171', '836', '849', '695', '738', '025', '135']},
+69: {name: 'Den 69', link: 'https://www.serebii.net/swordshield/maxraidbattles/den69.shtml', swordPokemon: ['827', '263-g', '686', '624', '510', '264-g', '828', '675', '625', '687', '862', '197'], shieldPokemon: ['827', '263-g', '686', '624', '510', '264-g', '828', '675', '625', '687', '862', '197']},
+70: {name: 'Den 70', link: 'https://www.serebii.net/swordshield/maxraidbattles/den70.shtml', swordPokemon: ['420', '761', '829', '546', '762', '597', '421', '598', '830', '763', '547', '470'], shieldPokemon: ['420', '761', '829', '546', '762', '597', '421', '598', '830', '763', '547', '470']},
+84: {name: 'Den 84', link: 'https://www.serebii.net/swordshield/maxraidbattles/den84.shtml', swordPokemon: ['447', '436', '624', '599', '095', '632', '600', '437', '625', '208', '601', '884-gi'], shieldPokemon: ['447', '436', '624', '599', '095', '600', '632', '437', '625', '208', '601', '884-gi']},
+12: {name: 'Den 12', link: 'https://www.serebii.net/swordshield/maxraidbattles/den12.shtml', swordPokemon: ['599', '436', '597', '624', '599', '436', '208', '598', '437', '625', '303', '777'], shieldPokemon: ['599', '436', '597', '624', '599', '436', '208', '598', '437', '625', '208', '777']},
+45: {name: 'Den 45', link: 'https://www.serebii.net/swordshield/maxraidbattles/den45.shtml', swordPokemon: ['447', '436', '624', '599', '095', '632', '600', '437', '625', '208', '601', '448'], shieldPokemon: ['447', '436', '624', '599', '095', '600', '632', '437', '625', '208', '601', '448']},
+51: {name: 'Den 51', link: 'https://www.serebii.net/swordshield/maxraidbattles/den51.shtml', swordPokemon: ['557', '438', '837', '688', '838', '185', '689', '095', '558', '839', '208', '874'], shieldPokemon: ['557', '438', '837', '524', '838', '246', '247', '095', '558', '839', '208', '248']},
+83: {name: 'Den 83', link: 'https://www.serebii.net/swordshield/maxraidbattles/den83.shtml', swordPokemon: ['557', '438', '837', '688', '838', '185', '689', '095', '558', '208', '874', '839-gi'], shieldPokemon: ['582', '613', '122-g', '712', '361', '225', '713', '362', '584', '866', '875', '131-gi']},
+14: {name: 'Den 14', link: 'https://www.serebii.net/swordshield/maxraidbattles/den14.shtml', swordPokemon: ['439', '360', '177', '343', '436', '122-g', '561', '178', '876', '344', '866', '202'], shieldPokemon: ['439', '360', '177', '343', '436', '122-g', '561', '178', '876-f', '344', '866', '202']},
+68: {name: 'Den 68', link: 'https://www.serebii.net/swordshield/maxraidbattles/den68.shtml', swordPokemon: ['686', '436', '122-g', '527', '856', '857', '437', '528', '687', '866', '858', '196'], shieldPokemon: ['686', '436', '122-g', '527', '856', '857', '437', '528', '687', '866', '858', '196']},
+19: {name: 'Den 19', link: 'https://www.serebii.net/swordshield/maxraidbattles/den19.shtml', swordPokemon: ['037', '757', '607', '037', '757', '758', '608', '038', '324', '758', '609', '776'], shieldPokemon: ['058', '757', '607', '058', '757', '608', '758', '059', '758', '324', '609', '059']},
+53: {name: 'Den 53', link: 'https://www.serebii.net/swordshield/maxraidbattles/den53.shtml', swordPokemon: ['037', '850', '607', '004', '005', '038', '631', '324', '038', '758', '851', '006'], shieldPokemon: ['058', '850', '607', '004', '005', '631', '631', '324', '758', '059', '851', '006']},
+33: {name: 'Den 33', link: 'https://www.serebii.net/swordshield/maxraidbattles/den33.shtml', swordPokemon: ['173', '175', '742', '684', '035', '755', '176', '036', '743', '756', '685', '468'], shieldPokemon: ['173', '175', '742', '682', '035', '755', '176', '036', '743', '756', '683', '468']},
+62: {name: 'Den 62', link: 'https://www.serebii.net/swordshield/maxraidbattles/den62.shtml', swordPokemon: ['175', '755', '859', '280', '176', '756', '860', '303', '282', '468', '861', '778'], shieldPokemon: ['175', '755', '859', '280', '176', '756', '860', '078-g', '282', '468', '861', '778']},
+57: {name: 'Den 57', link: 'https://www.serebii.net/swordshield/maxraidbattles/den57.shtml', swordPokemon: ['172', '309', '848', '694', '595', '025', '025', '479-m', '479-s', '479-w', '479-f', '479-h'], shieldPokemon: ['172', '309', '848', '694', '595', '025', '025', '479-m', '479-s', '479-w', '479-f', '479-h']},
+73: {name: 'Den 73', link: 'https://www.serebii.net/swordshield/maxraidbattles/den73.shtml', swordPokemon: ['582', '872', '122-g', '712', '361', '583', '713', '873', '584', '866', '478', '471'], shieldPokemon: ['582', '872', '122-g', '712', '361', '583', '713', '873', '584', '866', '478', '471']},
+56: {name: 'Den 56', link: 'https://www.serebii.net/swordshield/maxraidbattles/den56.shtml', swordPokemon: ['835', '848', '025', '595', '170', '171', '836', '849', '871', '596', '777', '877'], shieldPokemon: ['835', '848', '025', '595', '170', '171', '836', '849', '871', '596', '777', '877']},
+77: {name: 'Den 77', link: 'https://www.serebii.net/swordshield/maxraidbattles/den77.shtml', swordPokemon: ['037', '850', '607', '004', '005', '038', '631', '324', '038', '758', '851', '006-gi'], shieldPokemon: ['058', '850', '607', '004', '005', '631', '631', '324', '758', '059', '851', '006-gi']},
+74: {name: 'Den 74', link: 'https://www.serebii.net/swordshield/maxraidbattles/den74.shtml', swordPokemon: ['175', '684', '859', '280', '176', '860', '685', '868', '282', '861', '468', '700'], shieldPokemon: ['175', '682', '859', '280', '176', '860', '683', '868', '282', '861', '468', '700']},
+50: {name: 'Den 50', link: 'https://www.serebii.net/swordshield/maxraidbattles/den50.shtml', swordPokemon: ['686', '280', '122-g', '527', '856', '857', '281', '528', '858', '866', '687', '282'], shieldPokemon: ['686', '280', '122-g', '527', '856', '857', '281', '528', '858', '866', '687', '282']},
+41: {name: 'Den 41', link: 'https://www.serebii.net/swordshield/maxraidbattles/den41.shtml', swordPokemon: ['535', '090', '170', '747', '536', '846', '091', '171', '746', '537', '847', '748'], shieldPokemon: ['535', '090', '170', '536', '747', '846', '748', '091', '171', '746', '537', '847']},
+76: {name: 'Den 76', link: 'https://www.serebii.net/swordshield/maxraidbattles/den76.shtml', swordPokemon: ['458', '223', '320', '688', '098', '771', '099', '550', '211', '224', '321', '226'], shieldPokemon: ['458', '223', '320', '688', '098', '771', '099', '550', '211', '224', '321', '226']},
+3: {name: 'Den 3', link: 'https://www.serebii.net/swordshield/maxraidbattles/den3.shtml', swordPokemon: ['438', '524', '688', '557', '111', '525', '689', '112', '185', '558', '526', '213'], shieldPokemon: ['438', '688', '524', '557', '111', '525', '689', '112', '185', '526', '558', '213']},
+90: {name: 'Den 90', link: 'https://www.serebii.net/swordshield/maxraidbattles/den90.shtml', swordPokemon: ['767', '824', '588', '751', '616', '557', '825', '826', '752', '768', '589', '012-gi'], shieldPokemon: ['767', '824', '616', '751', '588', '557', '825', '826', '752', '768', '617', '012-gi']},
+37: {name: 'Den 37', link: 'https://www.serebii.net/swordshield/maxraidbattles/den37.shtml', swordPokemon: ['714', '328', '610', '714', '782', '329', '783', '611', '612', '330', '776', '784'], shieldPokemon: ['714', '610', '328', '714', '704', '329', '611', '705', '330', '612', '780', '706']},
+1: {name: 'Den 1', link: 'https://www.serebii.net/swordshield/maxraidbattles/den1.shtml', swordPokemon: ['236', '066', '532', '559', '067', '533', '106', '107', '560', '534', '068', '237'], shieldPokemon: ['236', '066', '532', '453', '533', '067', '107', '106', '454', '237', '068', '534']},
+91: {name: 'Den 91', link: 'https://www.serebii.net/swordshield/maxraidbattles/den91.shtml', swordPokemon: ['341', '098', '846', '833', '747', '550', '342', '748', '771', '130', '131', '099-gi'], shieldPokemon: ['341', '098', '846', '833', '747', '550', '342', '748', '771', '130', '131', '099-gi']},
+85: {name: 'Den 85', link: 'https://www.serebii.net/swordshield/maxraidbattles/den85.shtml', swordPokemon: ['052-g', '436', '624', '597', '679', '437', '863', '598', '625', '618-g', '884', '879-gi'], shieldPokemon: ['052-g', '436', '624', '597', '679', '437', '863', '598', '625', '618-g', '884', '879-gi']},
+66: {name: 'Den 66', link: 'https://www.serebii.net/swordshield/maxraidbattles/den66.shtml', swordPokemon: ['132', '132', '132', '132', '132', '132', '132', '132', '132', '132', '132', '132'], shieldPokemon: ['132', '132', '132', '132', '132', '132', '132', '132', '132', '132', '132', '132']},
+2: {name: 'Den 2', link: 'https://www.serebii.net/swordshield/maxraidbattles/den2.shtml', swordPokemon: ['280', '517', '677', '574', '605', '281', '678', '575', '518', '576', '338', '282'], shieldPokemon: ['280', '517', '677', '577', '605', '281', '678-f', '578', '518', '579', '337', '282']},
+35: {name: 'Den 35', link: 'https://www.serebii.net/swordshield/maxraidbattles/den35.shtml', swordPokemon: ['509', '434', '215', '686', '624', '510', '435', '461', '687', '625', '342', '275'], shieldPokemon: ['509', '434', '215', '686', '624', '510', '435', '461', '687', '625', '342', '302']},
+22: {name: 'Den 22', link: 'https://www.serebii.net/swordshield/maxraidbattles/den22.shtml', swordPokemon: ['220', '613', '872', '215', '122-g', '221', '091', '614', '866', '473', '873', '461'], shieldPokemon: ['220', '613', '872', '215', '122-g', '221', '091', '614', '866', '473', '873', '461']},
+81: {name: 'Den 81', link: 'https://www.serebii.net/swordshield/maxraidbattles/den81.shtml', swordPokemon: ['447', '066', '759', '083-g', '760', '067', '870', '701', '448', '475', '865', '068-gi'], shieldPokemon: ['679', '562-g', '854', '092', '680', '222-g', '093', '302', '855', '864', '867', '094-gi']},
+6: {name: 'Den 6', link: 'https://www.serebii.net/swordshield/maxraidbattles/den6.shtml', swordPokemon: ['092', '355', '425', '708', '592', '710', '093', '356', '426', '709', '711', '593'], shieldPokemon: ['092', '355', '425', '708', '592', '710', '093', '356', '426', '709', '711', '593']},
+80: {name: 'Den 80', link: 'https://www.serebii.net/swordshield/maxraidbattles/den80.shtml', swordPokemon: ['037', '850', '607', '757', '838', '608', '631', '324', '038', '609', '839', '851-gi'], shieldPokemon: ['058', '850', '607', '757', '838', '608', '631', '324', '059', '609', '839', '851-gi']},
+47: {name: 'Den 47', link: 'https://www.serebii.net/swordshield/maxraidbattles/den47.shtml', swordPokemon: ['679', '562-g', '854', '425', '680', '710', '426', '711', '855', '711', '867', '681'], shieldPokemon: ['679', '562-g', '854', '425', '680', '222-g', '426', '302', '855', '864', '867', '681']}}

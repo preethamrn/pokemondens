@@ -20,11 +20,11 @@ def getPokemon(raid):
     if len(allPokemon) != 24:
         raise Exception('Invalid number of Pokemon in this raid')
 
-    raidPokemon = {'sword': [], 'shield': []}
+    raidPokemon = {'swordPokemon': [], 'shieldPokemon': []}
     for index, pokemon in enumerate(allPokemon):
-        version = 'sword'
+        version = 'swordPokemon'
         if index >= 12:
-            version = 'shield'
+            version = 'shieldPokemon'
         imgSrc = pokemon.get('src')
         m = re.search('/pokedex-swsh/icon/(.+?).png', imgSrc)
         if m:
@@ -32,7 +32,7 @@ def getPokemon(raid):
             raidPokemon[version].append(pokeID)
 
     # post validation
-    if len(raidPokemon['sword']) != 12 or len(raidPokemon['shield']) != 12:
+    if len(raidPokemon['swordPokemon']) != 12 or len(raidPokemon['shieldPokemon']) != 12:
         raise Exception('Invalid number of Pokemon in one of the versions: ' + raidPokemon)
     
     return raidPokemon
@@ -40,13 +40,15 @@ def getPokemon(raid):
 def getDenNumber(raid):
     a = raid.find('a')
     return {
-        'number': a.text,
+        'name': a.text,
         'link': 'https://www.serebii.net/swordshield/' + a.get('href')
     }
 
 if __name__ == '__main__':
     r = requests.get('https://www.serebii.net/swordshield/maxraidbattledens.shtml')
     soup = BeautifulSoup(r.text, features='html.parser')
+
+    allDens = {}
 
     rows = soup.findAll('tr')
 
@@ -56,8 +58,14 @@ if __name__ == '__main__':
             continue # some of the rows are just information panels without pokemon
         [loc, img, common, rare] = children
 
-        print(loc.text)
-        print('https://www.serebii.net/swordshield/' + img.find('img').get('src'))
-        print({**getDenNumber(common), **getPokemon(common)})
-        print({**getDenNumber(rare), **getPokemon(rare)})
-        print()
+        commonDenNumber = getDenNumber(common)
+        rareDenNumber = getDenNumber(rare)
+        m1 = re.search('Den (.+?)$', commonDenNumber['name'])
+        m2 = re.search('Den (.+?)$', rareDenNumber['name'])
+        commonID = m1.group(1)
+        rareID = m2.group(1)
+        print({'location': loc.text, 'img': 'https://www.serebii.net/swordshield/' + img.find('img').get('src'), 'commonID': commonID, 'rareID': rareID, 'position': {'x': 0, 'y': 0}})
+        allDens[commonID] = {**commonDenNumber, **getPokemon(common)}
+        allDens[rareID] = {**rareDenNumber, **getPokemon(rare)}
+    
+    print(allDens)
