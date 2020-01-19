@@ -69,3 +69,8 @@ if __name__ == '__main__':
         allDens[rareID] = {**rareDenNumber, **getPokemon(rare)}
     
     print(allDens)
+    allPokemon = []
+    for _, den in allDens.items():
+        allPokemon.extend(den['swordPokemon'])
+        allPokemon.extend(den['shieldPokemon'])
+    print(set(allPokemon))
