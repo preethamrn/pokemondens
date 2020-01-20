@@ -1,6 +1,6 @@
 <template>
   <div class='den' :style="{left: position.x + 'px', top: position.y + 'px'}" @mouseenter="triggerHover()" @mouseleave="clearHover()">
-    <img :src="gmax ? '/icons/gmax.png' : '/icons/dmax.png'">
+    <img :src="!found ? '/icons/notfound.png' : gmax ? '/icons/gmax.png' : '/icons/dmax.png'">
     <v-container v-if='hover && commonDen && rareDen' class='den-hover' fluid>
       <v-row style="justify-content: center;"><img :src='screenshotImg' width="50%"/></v-row>
       <v-row>
@@ -30,6 +30,7 @@ export default {
     rareDen: Object,
     gmax: Boolean,
     screenshotImg: String,
+    searchIDs: Array,
   },
   methods: {
     triggerHover() {
@@ -37,6 +38,22 @@ export default {
     },
     clearHover() {
       this.hover = false
+    }
+  },
+  computed: {
+    found() {
+      if (!this.searchIDs || this.searchIDs.length === 0) return true
+      if (!this.commonDen || !this.rareDen) return this.searchIDs.length === 0
+      for (const i in this.searchIDs) {
+        const id = this.searchIDs[i]
+        if (this.commonDen.swordPokemon.indexOf(id) >= 0
+          || this.rareDen.swordPokemon.indexOf(id) >= 0
+          || this.commonDen.shieldPokemon.indexOf(id) >= 0
+          || this.rareDen.shieldPokemon.indexOf(id) >= 0) {
+            return  true
+          }
+      }
+      return false
     }
   }
 }
