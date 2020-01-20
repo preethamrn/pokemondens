@@ -9,7 +9,7 @@ npm run build
 # navigate into the build output directory
 cd dist
 
-echo 'www.pokemondenmap.com' > CNAME
+echo 'www.pokemondens.com' > CNAME
 
 git init
 git add -A
