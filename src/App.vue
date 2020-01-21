@@ -2,42 +2,42 @@
   <div id="app">
     <v-btn id='resetBtn' @click='reset'>Recenter</v-btn>
     <div id='searchBar'>
-    <v-autocomplete
-      attach='#searchBar'
-      v-model='searchIDs'
-      :items='allPokemon'
-      chips clearable hide-details hide-selected multiple solo
-      item-text='name'
-      item-value='id'
-      label='Search for a Pokemon...'
-    >
-      <template v-slot:selection='{ attr, on, item, selected }'>
-        <v-chip
-          v-bind='attr'
-          :input-value='selected'
-          color='blue-grey'
-          class='white--text'
-          close
-          @click:close='remove(item)'
-          v-on='on'
-        >
-          <img :src='`/sprites/${item.id}.png`' />
-          <span v-text='item.name'></span>
-        </v-chip>
-      </template>
-      <template v-slot:item='{ item }'>
-        <v-list-item-avatar
-          color='indigo'
-          class='headline font-weight-light white--text'
-        >
-          <img :src='`/sprites/${item.id}.png`' />
-        </v-list-item-avatar>
-        <v-list-item-content>
-          <v-list-item-title v-text='item.name'></v-list-item-title>
-          <v-list-item-subtitle v-text='item.id'></v-list-item-subtitle>
-        </v-list-item-content>
-      </template>
-    </v-autocomplete>
+      <v-autocomplete
+        attach='#searchBar'
+        v-model='searchIDs'
+        :items='allPokemon'
+        chips clearable hide-details hide-selected multiple solo
+        item-text='name'
+        item-value='id'
+        label='Search for a Pokemon...'
+      >
+        <template v-slot:selection='{ attr, on, item, selected }'>
+          <v-chip
+            v-bind='attr'
+            :input-value='selected'
+            color='blue-grey'
+            class='white--text'
+            close
+            @click:close='remove(item)'
+            v-on='on'
+          >
+            <img :src='`/sprites/${item.id}.png`' />
+            <span v-text='item.name'></span>
+          </v-chip>
+        </template>
+        <template v-slot:item='{ item }'>
+          <v-list-item-avatar
+            color='indigo'
+            class='headline font-weight-light white--text'
+          >
+            <img :src='`/sprites/${item.id}.png`' />
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <v-list-item-title v-text='item.name'></v-list-item-title>
+            <v-list-item-subtitle v-text='item.id'></v-list-item-subtitle>
+          </v-list-item-content>
+        </template>
+      </v-autocomplete>
     </div>
     <Moveable v-bind='moveable' @drag='handleDrag' ref='moveableTarget'>
       <div id='wild-area-map' ref='wildAreaMap'>
@@ -55,6 +55,10 @@
       <v-btn @click='scaleDown'>-</v-btn>
       <v-btn @click='scaleUp'>+</v-btn>
     </div>
+    <v-footer id='footer'>
+      <v-icon left>mdi-information</v-icon>
+      <span>Credits: <a href='https://www.youtube.com/channel/UC7tKYiFtH_6HCBD4hh7hTWw'>preethamrn</a>, <a href='https://reddit.com/u/malixx92'>/u/Malixx92</a>, <a href='https://www.serebii.net/swordshield/maxraidbattledens.shtml'>Serebii</a></span>
+    </v-footer>
   </div>
 </template>
 
@@ -327,18 +331,20 @@ export default {
 }
 #searchBar {
   position: fixed;
-  top: 20px; left: 70vw;
+  top: 20px; left: 100%; margin-left: -30vw;
   width: 25vw;
   z-index: 100;
 }
 #resetBtn {
   position: fixed;
-  top: 80vh; left: 90vw;
+  top: 100%; margin-top: -20vh;
+  left: 100%; margin-left: -13vw; width: 8vw;
   z-index: 100;
 }
 #scalingControls {
   position: fixed;
-  top: 90vh; left: 90vw;
+  top: 100%; margin-top: -10vh;
+  left: 100%; margin-left: -8vw; width: 5vw;
   z-index: 100;
 }
 
@@ -351,5 +357,12 @@ export default {
 
 .moveable-control,.moveable-line {
   display: none;
+}
+
+#footer {
+  position: fixed;
+  top:100%;
+  margin-top: -30px;
+  height: 30px;
 }
 </style>
