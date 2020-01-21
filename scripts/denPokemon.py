@@ -11,6 +11,8 @@ import requests
 import re
 from bs4 import BeautifulSoup
 
+allPokemonIDs = {}
+
 # ASSUMPTIONS: each version has 12 Pokemon per raid => first 12 images for Sword, next 12 images for Shield
 # error if there are more than 24 Pokemon => something in the website changed.
 # solution: potentially use the rowspan of the Sword/Shield td element and more carefully navigate the table.
@@ -26,15 +28,20 @@ def getPokemon(raid):
         if index >= 12:
             version = 'shieldPokemon'
         imgSrc = pokemon.get('src')
+        imgAlt = pokemon.get('alt')
         m = re.search('/pokedex-swsh/icon/(.+?).png', imgSrc)
         if m:
             pokeID = m.group(1)
             raidPokemon[version].append(pokeID)
+            m2 = re.search('(.+?) -.*', imgAlt)
+            if m2:
+                pokeName = m2.group(1)
+                allPokemonIDs[pokeID] = pokeName
 
     # post validation
     if len(raidPokemon['swordPokemon']) != 12 or len(raidPokemon['shieldPokemon']) != 12:
         raise Exception('Invalid number of Pokemon in one of the versions: ' + raidPokemon)
-    
+
     return raidPokemon
 
 def getDenNumber(raid):
@@ -43,6 +50,37 @@ def getDenNumber(raid):
         'name': a.text,
         'link': 'https://www.serebii.net/swordshield/' + a.get('href')
     }
+
+def getFullPokemonName(id, name):
+    if name == 'Rotom':
+        if id.endswith('-m'):
+            return {'id': id, 'name': 'Mow Rotom'}
+        if id.endswith('-w'):
+            return {'id': id, 'name': 'Wash Rotom'}
+        if id.endswith('-h'):
+            return {'id': id, 'name': 'Heat Rotom'}
+        if id.endswith('-f'):
+            return {'id': id, 'name': 'Frost Rotom'}
+        if id.endswith('-s'):
+            return {'id': id, 'name': 'Fan Rotom'}
+    if id.endswith('-g'):
+        return {'id': id, 'name': 'Galarian ' + name}
+    if id.endswith('-a'):
+        return {'id': id, 'name': 'Galarian ' + name}
+    elif id.endswith('-gi'):
+        return {'id': id, 'name': 'Gigantamax ' + name}
+    elif id.endswith('-e'):
+        return {'id': id, 'name': name + ' East'}
+    elif id.endswith('-w'):
+        return {'id': id, 'name': name + ' West'}
+    elif id.endswith('-f'):
+        return {'id': id, 'name': 'Female ' + name}
+    elif id.endswith('-m'):
+        return {'id': id, 'name': 'Male ' + name}
+    elif '-' in id:
+        raise Exception("unknown id format: " + id)
+    else:
+        return None
 
 if __name__ == '__main__':
     r = requests.get('https://www.serebii.net/swordshield/maxraidbattledens.shtml')
@@ -67,10 +105,13 @@ if __name__ == '__main__':
         print({'location': loc.text, 'img': 'https://www.serebii.net/swordshield/' + img.find('img').get('src'), 'commonID': commonID, 'rareID': rareID, 'position': {'x': 0, 'y': 0}})
         allDens[commonID] = {**commonDenNumber, **getPokemon(common)}
         allDens[rareID] = {**rareDenNumber, **getPokemon(rare)}
-    
+
     print(allDens)
-    allPokemon = []
-    for _, den in allDens.items():
-        allPokemon.extend(den['swordPokemon'])
-        allPokemon.extend(den['shieldPokemon'])
-    print(set(allPokemon))
+
+    fullPokemonnNames = []
+    for id, name in allPokemonIDs.items():
+        fullName = getFullPokemonName(id, name)
+        if fullName:
+            fullPokemonnNames.append(fullName)
+
+    print(fullPokemonnNames)
