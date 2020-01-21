@@ -306,15 +306,19 @@ export default {
       // minScale = 0.5
       if (this.currentScale > 0.5) {
         this.currentScale -= 0.5
-        this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})`
+      } else if (this.currentScale > 0.25) {
+        this.currentScale = 0.25
       }
+      this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})`
     },
     scaleUp() {
       // maxScale = 3.0
-      if (this.currentScale < 3.0) {
+      if (this.currentScale < 0.5) {
+        this.currentScale = 0.5
+      } else if (this.currentScale < 3.0) {
         this.currentScale += 0.5
-        this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})`
       }
+      this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})`
     },
   }
 }
