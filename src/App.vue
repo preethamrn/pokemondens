@@ -81,7 +81,6 @@ export default {
       // support dragging map
       moveable: {
         draggable: true,
-        resizable: true,
       },
       currentScale: 1.0,
 
