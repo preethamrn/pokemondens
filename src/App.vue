@@ -83,6 +83,8 @@ export default {
         draggable: true,
       },
       currentScale: 1.0,
+      resetScale: 'scale(1.0)',
+      resetTranslate: '',
 
       // Pokemon searching
       searchIDs: [],
@@ -302,8 +304,8 @@ export default {
     },
     reset() {
       this.currentScale = 1.0
-      this.$refs.moveableTarget.$el.style.transform = `translate(0px, 0px) translateZ(50px)`
-      this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})`
+      this.$refs.moveableTarget.$el.style.transform = `translate(0px, 0px) translateZ(50px)` + this.resetTranslate
+      this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})` + this.resetScale
     },
     scaleDown() {
       // minScale = 0.5
@@ -312,7 +314,7 @@ export default {
       } else if (this.currentScale > 0.25) {
         this.currentScale = 0.25
       }
-      this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})`
+      this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})` + this.resetScale
     },
     scaleUp() {
       // maxScale = 3.0
@@ -321,12 +323,18 @@ export default {
       } else if (this.currentScale < 3.0) {
         this.currentScale += 0.5
       }
-      this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})`
+      this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})` + this.resetScale
     },
     closeSearchMenu() {
-      console.log(this.$refs.searchMenu.isMenuActive)
       this.$refs.searchMenu.isMenuActive = false
     }
+  },
+  mounted() {
+    if (screen.width <= 768) {
+      this.resetScale = `scale(${screen.width / 1500})`
+      this.resetTranslate = `translate(-20px, ${screen.height / 8}px)`
+    }
+    this.reset()
   }
 }
 </script>
@@ -374,6 +382,7 @@ export default {
   #footer {
     top: 0; width: 100vw; height: 30px;
     bottom: unset;
+    overflow: visible;
   }
 }
 .cardBtn {
