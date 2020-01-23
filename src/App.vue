@@ -9,6 +9,7 @@
         item-text='name'
         item-value='id'
         label='Search for a Pokemon...'
+        ref='searchMenu'
       >
         <template v-slot:selection='{ attr, on, item, selected }'>
           <v-chip
@@ -47,7 +48,7 @@
     </div>
     <Moveable v-bind='moveable' @drag='handleDrag' ref='moveableTarget'>
       <div id='wild-area-map' ref='wildAreaMap'>
-        <img alt="Pokemon Wild Area Map" src="./assets/pokemon-wild-area.png">
+        <img alt="Pokemon Wild Area Map" src="./assets/pokemon-wild-area.png" @touchstart='closeSearchMenu'>
         <DenLocation v-for="(den, index) in dens" :key="index"
           :position='den.position'
           :commonDen='denPokemon[den.commonID]'
@@ -323,6 +324,10 @@ export default {
       }
       this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})`
     },
+    closeSearchMenu() {
+      console.log(this.$refs.searchMenu.isMenuActive)
+      this.$refs.searchMenu.isMenuActive = false
+    }
   }
 }
 </script>
