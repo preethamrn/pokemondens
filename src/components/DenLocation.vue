@@ -1,6 +1,6 @@
 <template>
-  <div class='den' :style="{left: position.x + 'px', top: position.y + 'px'}" @touchstart="toggleHover()" @mouseenter="triggerHover()" @mouseleave="clearHover()">
-    <img :src="!found ? '/icons/notfound.png' : gmax ? '/icons/gmax.png' : '/icons/dmax.png'" :style='{transform: found ? "scale(1.0)" : "scale(0.5)"}'>
+  <div class='den' :style="{left: position.x + 'px', top: position.y + 'px'}" @mouseenter="triggerHover()" @mouseleave="clearHover()">
+    <img @touchstart="toggleHover()" :src="!found ? '/icons/notfound.png' : gmax ? '/icons/gmax.png' : '/icons/dmax.png'" :style='{transform: found ? "scale(1.0)" : "scale(0.5)"}'>
     <v-container v-if='hover && commonDen && rareDen' class='den-hover' fluid>
       <v-row style="justify-content: center;"><img :src='screenshotImg' width="50%"/></v-row>
       <v-row>
@@ -70,5 +70,6 @@ export default {
   background-color: #ffffff;
   position: relative;
   z-index: 100;
+  overflow: visible;
 }
 </style>

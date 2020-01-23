@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <v-btn id='resetBtn' @click='reset'>Recenter</v-btn>
     <div id='searchBar'>
       <v-autocomplete
         attach='#searchBar'
@@ -39,6 +38,13 @@
         </template>
       </v-autocomplete>
     </div>
+    <div id='controls'>
+      <v-row justify='center' no-gutters>
+        <v-col cols='6' lg='12'><v-card class='cardBtn' tile @click='reset'>RECENTER</v-card></v-col>
+        <v-col cols='3' lg='6'><v-card class='cardBtn' tile @click='scaleDown'>-</v-card></v-col>
+        <v-col cols='3' lg='6'><v-card class='cardBtn' tile @click='scaleUp'>+</v-card></v-col>
+      </v-row>
+    </div>
     <Moveable v-bind='moveable' @drag='handleDrag' ref='moveableTarget'>
       <div id='wild-area-map' ref='wildAreaMap'>
         <img alt="Pokemon Wild Area Map" src="./assets/pokemon-wild-area.png">
@@ -51,10 +57,6 @@
           :searchIDs='searchIDs'/>
       </div>
     </Moveable>
-    <div id='scalingControls'>
-      <v-btn @click='scaleDown'>-</v-btn>
-      <v-btn @click='scaleUp'>+</v-btn>
-    </div>
     <v-footer id='footer'>
       <v-icon left>mdi-information</v-icon>
       <span>Credits: <a href='https://www.youtube.com/channel/UC7tKYiFtH_6HCBD4hh7hTWw'>preethamrn</a>, <a href='https://reddit.com/u/malixx92'>/u/Malixx92</a>, <a href='https://www.serebii.net/swordshield/maxraidbattledens.shtml'>Serebii</a></span>
@@ -78,6 +80,7 @@ export default {
       // support dragging map
       moveable: {
         draggable: true,
+        resizable: true,
       },
       currentScale: 1.0,
 
@@ -335,21 +338,43 @@ export default {
 }
 #searchBar {
   position: fixed;
-  top: 20px; left: 100%; margin-left: -30vw;
+  top: 20px; left: 100vw; margin-left: -30vw;
   width: 25vw;
-  z-index: 100;
+  z-index: 99;
 }
-#resetBtn {
+#controls {
   position: fixed;
-  top: 100%; margin-top: -20vh;
-  left: 100%; margin-left: -13vw; width: 8vw;
-  z-index: 100;
+  top: 100vh; margin-top: -30vh;
+  left: 100vw; margin-left: -10vw;
+  z-index: 99;
+  width: 150px;
+  background: #ffffff;
 }
-#scalingControls {
+#footer {
   position: fixed;
-  top: 100%; margin-top: -10vh;
-  left: 100%; margin-left: -8vw; width: 5vw;
-  z-index: 100;
+  bottom: 0;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones */
+  #controls {
+    margin-top: -15vh;
+    margin-left: -90vw;
+    width: 80vw;
+  }
+  #searchBar {
+    width: 100vw;
+    top: 30px;
+    left: unset; margin-left: unset;
+  }
+
+  #footer {
+    top: 0; width: 100vw; height: 30px;
+    bottom: unset;
+  }
+}
+.cardBtn {
+  padding: 10px;
+  border: #000;
 }
 
 #wild-area-map {
@@ -361,12 +386,5 @@ export default {
 
 .moveable-control,.moveable-line {
   display: none;
-}
-
-#footer {
-  position: fixed;
-  top:100%;
-  margin-top: -30px;
-  height: 30px;
 }
 </style>
