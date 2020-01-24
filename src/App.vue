@@ -55,7 +55,8 @@
           :rareDen='denPokemon[den.rareID]'
           :gmax='denPokemon[den.rareID] && (denPokemon[den.commonID].gmax || denPokemon[den.rareID].gmax)'
           :screenshotImg='den.img'
-          :searchIDs='searchIDs'/>
+          :searchIDs='searchIDs'
+          ref='denLocationElement'/>
       </div>
     </Moveable>
     <v-footer id='footer'>
@@ -327,6 +328,7 @@ export default {
     },
     closeSearchMenu() {
       this.$refs.searchMenu.isMenuActive = false
+      this.$refs.denLocationElement.forEach(el => el.clearHover())
     }
   },
   mounted() {
@@ -356,7 +358,7 @@ export default {
 }
 #controls {
   position: fixed;
-  top: 100vh; margin-top: -30vh;
+  top: 100vh; margin-top: -15vh;
   left: 100vw; margin-left: -10vw;
   z-index: 99;
   width: 150px;
