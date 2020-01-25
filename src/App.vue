@@ -46,7 +46,7 @@
         <v-col cols='3' lg='6'><v-card class='cardBtn' tile @click='scaleUp'>+</v-card></v-col>
       </v-row>
     </div>
-    <Moveable v-bind='moveable' @drag='handleDrag' ref='moveableTarget'>
+    <Moveable v-bind='moveable' @drag='handleDrag' @scale='handlePinchScale' ref='moveableTarget'>
       <div id='wild-area-map' ref='wildAreaMap'>
         <img alt="Pokemon Wild Area Map" src="./assets/pokemon-wild-area.png" @touchstart='closeSearchMenu'>
         <DenLocation v-for="(den, index) in dens" :key="index"
@@ -82,6 +82,7 @@ export default {
       // support dragging map
       moveable: {
         draggable: true,
+        pinchable: ['scalable'],
       },
       currentScale: 1.0,
       resetScale: 'scale(1.0)',
@@ -297,6 +298,10 @@ export default {
   methods: {
     handleDrag({target, transform}) {
       target.style.transform = transform
+    },
+    handlePinchScale({target, delta}) {
+      this.currentScale *= delta[0]
+      this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})` + this.resetScale
     },
     remove (item) {
       console.log(this.searchIDs)
