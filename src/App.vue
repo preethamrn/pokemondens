@@ -310,7 +310,7 @@ export default {
     },
     reset() {
       this.currentScale = 1.0
-      this.$refs.moveableTarget.$el.style.transform = `translate(0px, 0px) translateZ(50px)` + this.resetTranslate
+      this.$refs.moveableTarget.$el.style.transform = `translate(0px, 0px)` + this.resetTranslate
       this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})` + this.resetScale
     },
     scaleDown() {
