@@ -80,7 +80,11 @@ def getFullPokemonName(id, name):
     elif '-' in id:
         raise Exception("unknown id format: " + id)
     else:
-        return None
+        # return None  # uncomment if we want only the special Pokemon
+        return {'id': id, 'name': name} # returns all Pokemon found in dens
+
+def fitness(pokemon):
+    return pokemon['id']
 
 if __name__ == '__main__':
     r = requests.get('https://www.serebii.net/swordshield/maxraidbattledens.shtml')
@@ -108,10 +112,11 @@ if __name__ == '__main__':
 
     print(allDens)
 
-    fullPokemonnNames = []
+    fullPokemonNames = []
     for id, name in allPokemonIDs.items():
         fullName = getFullPokemonName(id, name)
         if fullName:
-            fullPokemonnNames.append(fullName)
+            fullPokemonNames.append(fullName)
 
-    print(fullPokemonnNames)
+    fullPokemonNames = sorted(fullPokemonNames, key=fitness)
+    print(fullPokemonNames)
