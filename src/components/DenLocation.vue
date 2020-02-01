@@ -71,5 +71,6 @@ export default {
   position: relative;
   z-index: 100;
   overflow: visible;
+  width: max-content;
 }
 </style>
