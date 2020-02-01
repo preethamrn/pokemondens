@@ -46,9 +46,9 @@
         <v-col cols='3' lg='6'><v-card class='cardBtn' tile @click='scaleUp'>+</v-card></v-col>
       </v-row>
     </div>
-    <Moveable v-bind='moveable' @drag='handleDrag' @scale='handlePinchScale' @pinchStart='handlePinchStart' ref='moveableTarget'>
-      <div id='wild-area-map' ref='wildAreaMap'>
-        <div ref='mapContainer'>
+    <div ref='mapContainer'>
+      <Moveable v-bind='moveable' @drag='handleDrag' @scale='handlePinchScale' @pinchStart='handlePinchStart' ref='moveableTarget'>
+        <div id='wild-area-map' ref='wildAreaMap'>
           <img alt="Pokemon Wild Area Map" src="./assets/pokemon-wild-area.png" @touchstart='closeSearchMenu'>
           <DenLocation v-for="(den, index) in dens" :key="index"
             :position='den.position'
@@ -59,8 +59,8 @@
             :searchIDs='searchIDs'
             ref='denLocationElement'/>
         </div>
-      </div>
-    </Moveable>
+      </Moveable>
+    </div>
     <v-footer id='footer'>
       <v-icon left>mdi-information</v-icon>
       <span>Credits: <a href='https://www.youtube.com/channel/UC7tKYiFtH_6HCBD4hh7hTWw'>preethamrn</a>, <a href='https://reddit.com/u/malixx92'>/u/Malixx92</a>, <a href='https://www.serebii.net/swordshield/maxraidbattledens.shtml'>Serebii</a></span>
@@ -311,8 +311,8 @@ export default {
       let picRight = boundingBox.right
       let picBottom = boundingBox.bottom
 
-      if (picX < 0) picX = -picX
-      if (picY < 0) picY = -picY
+      picX = -picX
+      picY = -picY
       let xO = ((clientX + picX)/(picRight + picX))*100
       let yO = ((clientY + picY)/(picBottom + picY))*100
       this.$refs.mapContainer.style.transformOrigin = `${xO}% ${yO}%`
@@ -328,6 +328,7 @@ export default {
       this.$refs.moveableTarget.$el.style.transform = `translate(0px, 0px)` + this.resetTranslate
       this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})` + this.resetScale
       this.$refs.mapContainer.style.transform = `scale(${this.currentPinchScale})`
+      this.$refs.mapContainer.style.transformOrigin = `top left`
     },
     scaleDown() {
       // minScale = 0.5
