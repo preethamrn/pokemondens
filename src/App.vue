@@ -46,17 +46,19 @@
         <v-col cols='3' lg='6'><v-card class='cardBtn' tile @click='scaleUp'>+</v-card></v-col>
       </v-row>
     </div>
-    <Moveable v-bind='moveable' @drag='handleDrag' @scale='handlePinchScale' ref='moveableTarget'>
+    <Moveable v-bind='moveable' @drag='handleDrag' @scale='handlePinchScale' @pinchStart='handlePinchStart' ref='moveableTarget'>
       <div id='wild-area-map' ref='wildAreaMap'>
-        <img alt="Pokemon Wild Area Map" src="./assets/pokemon-wild-area.png" @touchstart='closeSearchMenu'>
-        <DenLocation v-for="(den, index) in dens" :key="index"
-          :position='den.position'
-          :commonDen='denPokemon[den.commonID]'
-          :rareDen='denPokemon[den.rareID]'
-          :gmax='denPokemon[den.rareID] && (denPokemon[den.commonID].gmax || denPokemon[den.rareID].gmax)'
-          :screenshotImg='den.img'
-          :searchIDs='searchIDs'
-          ref='denLocationElement'/>
+        <div ref='mapContainer'>
+          <img alt="Pokemon Wild Area Map" src="./assets/pokemon-wild-area.png" @touchstart='closeSearchMenu'>
+          <DenLocation v-for="(den, index) in dens" :key="index"
+            :position='den.position'
+            :commonDen='denPokemon[den.commonID]'
+            :rareDen='denPokemon[den.rareID]'
+            :gmax='denPokemon[den.rareID] && (denPokemon[den.commonID].gmax || denPokemon[den.rareID].gmax)'
+            :screenshotImg='den.img'
+            :searchIDs='searchIDs'
+            ref='denLocationElement'/>
+        </div>
       </div>
     </Moveable>
     <v-footer id='footer'>
@@ -85,6 +87,7 @@ export default {
         pinchable: ['scalable'],
       },
       currentScale: 1.0,
+      currentPinchScale: 1.0,
       resetScale: 'scale(1.0)',
       resetTranslate: '',
 
@@ -298,8 +301,21 @@ export default {
       target.style.transform = transform
     },
     handlePinchScale({target, delta}) {
-      this.currentScale *= delta[0]
-      this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})` + this.resetScale
+      this.currentPinchScale *= delta[0]
+      this.$refs.mapContainer.style.transform = `scale(${this.currentPinchScale})`
+    },
+    handlePinchStart({clientX, clientY}) {
+      let boundingBox = this.$refs.mapContainer.getBoundingClientRect()
+      let picX = boundingBox.left
+      let picY = boundingBox.top
+      let picRight = boundingBox.right
+      let picBottom = boundingBox.bottom
+
+      if (picX < 0) picX = -picX
+      if (picY < 0) picY = -picY
+      let xO = ((clientX + picX)/(picRight + picX))*100
+      let yO = ((clientY + picY)/(picBottom + picY))*100
+      this.$refs.mapContainer.style.transformOrigin = `${xO}% ${yO}%`
     },
     remove (item) {
       console.log(this.searchIDs)
@@ -308,8 +324,10 @@ export default {
     },
     reset() {
       this.currentScale = 1.0
+      this.currentPinchScale = 1.0
       this.$refs.moveableTarget.$el.style.transform = `translate(0px, 0px)` + this.resetTranslate
       this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})` + this.resetScale
+      this.$refs.mapContainer.style.transform = `scale(${this.currentPinchScale})`
     },
     scaleDown() {
       // minScale = 0.5
