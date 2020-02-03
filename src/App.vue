@@ -89,7 +89,14 @@ export default {
       currentScale: 1.0,
       currentPinchScale: 1.0,
       resetScale: 'scale(1.0)',
-      resetTranslate: '',
+      resetTranslate: {
+        x: 0,
+        y: 0,
+      },
+      currentTranslate: {
+        x: 0,
+        y: 0,
+      },
 
       // Pokemon searching
       searchIDs: [],
@@ -297,8 +304,10 @@ export default {
     }
   },
   methods: {
-    handleDrag({target, transform}) {
-      target.style.transform = transform
+    handleDrag({target, delta}) {
+      this.currentTranslate.x += delta[0] / this.currentPinchScale
+      this.currentTranslate.y += delta[1] / this.currentPinchScale
+      this.applyCurrentTranslate(target)
     },
     handlePinchScale({target, delta}) {
       this.currentPinchScale *= delta[0]
@@ -318,14 +327,14 @@ export default {
       this.$refs.mapContainer.style.transformOrigin = `${xO}% ${yO}%`
     },
     remove (item) {
-      console.log(this.searchIDs)
       const index = this.searchIDs.indexOf(item.id)
       if (index >= 0) this.searchIDs.splice(index, 1)
     },
     reset() {
       this.currentScale = 1.0
       this.currentPinchScale = 1.0
-      this.$refs.moveableTarget.$el.style.transform = `translate(0px, 0px)` + this.resetTranslate
+      this.currentTranslate = this.resetTranslate
+      this.$refs.moveableTarget.$el.style.transform = `translate(${this.currentTranslate.x}px , ${this.currentTranslate.y}px)`
       this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})` + this.resetScale
       this.$refs.mapContainer.style.transform = `scale(${this.currentPinchScale})`
       this.$refs.mapContainer.style.transformOrigin = `top left`
@@ -348,6 +357,9 @@ export default {
       }
       this.$refs.wildAreaMap.style.transform = `scale(${this.currentScale})` + this.resetScale
     },
+    applyCurrentTranslate(target) {
+      target.style.transform = `translate(${this.currentTranslate.x}px , ${this.currentTranslate.y}px)`
+    },
     closeSearchMenu() {
       this.$refs.searchMenu.isMenuActive = false
       this.$refs.denLocationElement.forEach(el => el.clearHover())
@@ -356,7 +368,7 @@ export default {
   mounted() {
     if (screen.width <= 768) {
       this.resetScale = `scale(${screen.width / 1500})`
-      this.resetTranslate = `translate(-20px, ${screen.height / 8}px)`
+      this.resetTranslate = {x: -20, y: screen.height / 8}
     }
     this.reset()
   }
