@@ -120,3 +120,8 @@ if __name__ == '__main__':
 
     fullPokemonNames = sorted(fullPokemonNames, key=fitness)
     print(fullPokemonNames)
+
+# s/\{'location': (.*?), 'img': (.*?), 'commonID': '(.*?)', 'rareID': '(.*?)', 'position': (.*)$/{location: $1, img: $2, commonID: $3, rareID: $4, position: $5,/
+# s/\{'x': 0, 'y': 0\}/{x: 0, y: 0}/
+# s/'([^']*?)':/$1:/
+# s/'\]\}, /']},\n/
