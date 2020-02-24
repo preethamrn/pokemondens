@@ -370,9 +370,6 @@ export default {
 }
 
 #wild-area-map {
-  position: relative;
-  transform-origin: top left;
-  top: 15px;
-  left: 10px;
+  display:inline-block
 }
 </style>
