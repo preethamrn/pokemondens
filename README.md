@@ -30,15 +30,7 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # TODO
-- Setup all den Pokemon (update denPokemon.py script to generate the required component data)
-- Setup all den positions
-- Fix the transform-origin for scaling (it doesn't feel like the natural center of the screen is being preserved)
-- Fix styling for the hover layout
-- Add deep links into Serebii
-- Add contact and credits links
-- Search for dens by Pokemon
 - Add other map elements (trees, items, nursery, watts trader, digging duo) + toggle map elements functionality
-- Scale map and center the transform to browser width on page load (only once!)
 
 # DONE
 - Map with den markers positioning functionality
@@ -48,3 +40,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Support list of Pokemon in a table
 - Draggable map (handleDrag can also update all the den location positions): https://vuejsexamples.com/a-vue-component-that-create-moveable-and-resizable/
 - Resize buttons on map (change the scale)
+- Fix the transform-origin for scaling (it doesn't feel like the natural center of the screen is being preserved)
+- Scale map and center the transform to browser width on page load (only once!)
+- Fix styling for the hover layout
+- Add deep links into Serebii
+- Add contact and credits links
+- Search for dens by Pokemon
+- Setup all den Pokemon (update denPokemon.py script to generate the required component data)
+- Setup all den positions
