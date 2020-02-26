@@ -30,7 +30,12 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # TODO
-- Add other map elements (trees, items, nursery, watts trader, digging duo) + toggle map elements functionality
+- Add berry trees:
+  - Add berry tree hover functionality
+  - Add berry tree icons and search functionality
+  - Add berries and pokemon information (scrape serebii)
+- Add other map elements (items, nursery, watts trader, digging duo)
+- Toggle map elements functionality
 
 # DONE
 - Map with den markers positioning functionality

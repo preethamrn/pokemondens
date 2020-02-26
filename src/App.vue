@@ -47,14 +47,22 @@
     <pinch-zoom id='pinchzoom'>
       <div id='wild-area-map'>
         <img alt="Pokemon Wild Area Map" src="./assets/pokemon-wild-area.png" @touchstart='closeSearchMenu'>
-        <DenLocation v-for="(den, index) in dens" :key="index"
+        <DenLocation v-for="(den, index) in dens" :key="'den-'+index"
           :position='den.position'
           :commonDen='denPokemon[den.commonID]'
           :rareDen='denPokemon[den.rareID]'
           :gmax='denPokemon[den.rareID] && (denPokemon[den.commonID].gmax || denPokemon[den.rareID].gmax)'
           :screenshotImg='den.img'
           :searchIDs='searchIDs'
-          ref='denLocationElement'/>
+          ref='hoverableElement'/>
+        <BerryTree v-for="(tree, index) in trees" :key="'berry-'+index"
+          :position='tree.position'
+          :treeBerries='tree.berries'
+          :treePokemon='tree.pokemon'
+          :treeInfo='tree.info'
+          :screenshotImg='tree.img'
+          :searchIDs='searchIDs'
+          ref='hoverableElement'/>
       </div>
     </pinch-zoom>
     <v-footer id='footer'>
@@ -67,12 +75,14 @@
 <script>
 /* eslint-disable no-param-reassign,no-unused-expressions,no-unused-vars,no-console */
 import DenLocation from './components/DenLocation.vue'
+import BerryTree from './components/BerryTree.vue'
 import './components/pinch-zoom'
 
 export default {
   name: 'app',
   components: {
     DenLocation,
+    BerryTree,
   },
   data() {
     return {
@@ -87,6 +97,9 @@ export default {
       searchIDs: [],
 
       // den data (immutable)
+      trees: [
+        {img: "https://www.serebii.net/swordshield/berry/axew'seye.jpg", berries: ['salacberry', 'lumberry', 'keeberry', 'marangaberry', 'kebiaberry', 'colburberry'], pokemon: ['820','420'], info: {link: "https://www.serebii.net/pokearth/galar/axew'seye.shtml", name: "Axew's Eye"}, position: {x: 0, y: 0}},
+      ],
       dens: [
         {location: "Axew's Eye", img: "https://www.serebii.net/swordshield/den/th/axew'seye-1.jpg", commonID: 38, rareID: 64, position: {x: 706, y: 1503}},
         {location: 'Bridge Field', img: 'https://www.serebii.net/swordshield/den/th/bridgefield-1.jpg', commonID: 16, rareID: 52, position: {x: 930, y: 1044}},
@@ -305,7 +318,7 @@ export default {
     },
     closeSearchMenu() {
       this.$refs.searchMenu.isMenuActive = false
-      this.$refs.denLocationElement.forEach(el => el.clearHover())
+      this.$refs.hoverableElement.forEach(el => el.clearHover())
     }
   },
   mounted() {
