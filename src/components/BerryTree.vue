@@ -4,17 +4,19 @@
     <v-container v-if='hover && treeBerries' class='tree-hover' fluid>
       <v-row style="justify-content: center;"><img :src='screenshotImg' width="80%"/></v-row>
       <v-row>
+        <v-col>
         <div class='tree-berries'>
           <a class='name' :href='treeInfo.link'>{{treeInfo.name}}</a>
-          <div class='bt version'>Berries</div>
+          <div class='bt type'>Berries</div>
           <div class='btb pokemon-list'>
             <img v-for='(berryID, index) in treeBerries' :key='index' :src='`/sprites/${berryID}.png`' />
           </div>
-          <div class='btt version'>Pokemon</div>
+          <div class='btt type'>Pokemon</div>
           <div class='btp pokemon-list'>
             <img v-for='(pokeID, index) in treePokemon' :key='index' :src='`/sprites/${pokeID}.png`' />
           </div>
         </div>
+        </v-col>
       </v-row>
     </v-container>
   </div>
@@ -53,11 +55,12 @@ export default {
   computed: {
     // NOTE: found doesn't search for the Pokemon found in this berry tree (eg. Skowvet, Greedent, Cherubi, etc.)
     // return true if we're not searching for berries
+    // ASSUMPTION: the only items in trees are endswith('berry') OR 'leftovers'
     found() {
       if (!this.searchIDs || this.searchIDs.length === 0) return true
       let searchingForBerry = false
       for (const i in this.searchIDs) {
-        if (!this.searchIDs[i].endsWith('berry')) {
+        if (!this.searchIDs[i].endsWith('berry') && this.searchIDs[i] !== 'leftovers') {
           continue
         }
         searchingForBerry = true
@@ -81,14 +84,14 @@ export default {
   position: relative;
   z-index: 100;
   overflow: visible;
-  width: max-content;
+  width: 333px;
 }
 
-.bt { background-color: #00d1f6; color: #002b33; }
-.btb { background-color: #ccf7ff; }
+.bt { background-color: #1df600; color: #000000; }
+.btb { background-color: #d4ffcc; }
 
-.btt { background-color: #9e2306; color: #190501; }
-.btp { background-color: #fdd6ce; }
+.btt { background-color: #f6e600; color: #000000; }
+.btp { background-color: #ffefbb; }
 
 .name {
   justify-self: center;
@@ -96,7 +99,7 @@ export default {
   font-weight: 600;
   padding-bottom: 10px;
 }
-.version {
+.type {
   line-height: 100%;
   font-weight: 600;
   padding: 10px;
@@ -107,11 +110,10 @@ export default {
   display: grid;
   grid-template:
     "name" 1fr
-    "bt btb" auto
-    "btt btp" auto / 1fr 5fr;
+    "bt btb btt btp" auto / 1fr 5fr;
 }
 .pokemon-list {
   display: grid;
-  grid: repeat(2, 50px) / auto-flow 60px;
+  grid: repeat(1, 40px) / auto-flow 50px;
 }
 </style>
