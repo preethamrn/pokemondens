@@ -36,6 +36,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   - Add berries and pokemon information (scrape serebii)
 - Add other map elements (items, nursery, watts trader, digging duo)
 - Toggle map elements functionality
+- Support searching for berry trees by their attributes and display attributes using custom select item (eg. lower attack EV, etc.)
 
 # DONE
 - Map with den markers positioning functionality

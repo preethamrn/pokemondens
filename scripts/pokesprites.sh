@@ -1,5 +1,18 @@
 #!/bin/bash
 
+### berries (from https://www.serebii.net/itemdex/list/berry.shtml):
+# e = document.getElementsByClassName('fooinfo')
+# for (let i =0;i<e.length; i++) {
+#   if (i%2 == 0) x.push(e[i].textContent.replace(/\s/g, '').toLowerCase())
+# }
+declare -a arr=("aguavberry" "apicotberry" "aspearberry" "babiriberry" "belueberry" "blukberry" "chartiberry" "cheriberry" "chestoberry" "chilanberry" "chopleberry" "cobaberry" "colburberry" "cornnberry" "custapberry" "durinberry" "enigmaberry" "figyberry" "ganlonberry" "goldennanabberry" "goldenpinapberry" "goldenrazzberry" "grepaberry" "habanberry" "hondewberry" "iapapaberry" "jabocaberry" "kasibberry" "kebiaberry" "keeberry" "kelpsyberry" "lansatberry" "leppaberry" "liechiberry" "lumberry" "magoberry" "magostberry" "marangaberry" "micleberry" "nanabberry" "nomelberry" "occaberry" "oranberry" "pamtreberry" "passhoberry" "payapaberry" "pechaberry" "persimberry" "petayaberry" "pinapberry" "pomegberry" "qualotberry" "rabutaberry" "rawstberry" "razzberry" "rindoberry" "roseliberry" "rowapberry" "salacberry" "shucaberry" "silvernanabberry" "silverpinapberry" "silverrazzberry" "sitrusberry" "spelonberry" "starfberry" "tamatoberry" "tangaberry" "wacanberry" "watmelberry" "wepearberry" "wikiberry" "yacheberry")
+for i in "${arr[@]}"
+do
+  wget "serebii.net/itemdex/sprites/$i.png" 2> /dev/null
+  echo "serebii.net/itemdex/sprites/$i.png"
+done
+
+
 for i in $(seq -f "%03g" 1 890)
 do
   wget "serebii.net/pokedex-swsh/icon/$i.png" 2> /dev/null
