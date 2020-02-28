@@ -11,12 +11,19 @@ import requests
 import re
 from bs4 import BeautifulSoup
 
+allBerries = {}
+
 # NOTE: route 3 has a bug that mentions persimberry twice
 def getBerries(berries):
     text = berries.text.replace('Berry', '').strip()
     text.replace('\r', '')
     text.replace('\n', '')
-    return list(berry.lower()+('berry' if berry.lower() != 'leftovers' else '') for berry in text.split(' '))
+    berries = []
+    for berry in text.split(' '):
+        berryID = berry.lower()+('berry' if berry.lower() != 'leftovers' else '')
+        berries.append(berryID)
+        allBerries[berryID] = berry + (' Berry' if berry.lower() != 'leftovers' else '')
+    return berries
 
 def getPokemon(pokemon):
     pokemonList = pokemon.findAll('a')
@@ -42,6 +49,9 @@ def getTreeName(info):
         'link': 'https://www.serebii.net' + a.get('href')
     }
 
+def fitness(berry):
+    return berry['id']
+
 if __name__ == '__main__':
     r = requests.get('https://www.serebii.net/swordshield/berrytrees.shtml')
     soup = BeautifulSoup(r.text, features='html.parser')
@@ -53,8 +63,16 @@ if __name__ == '__main__':
         if len(children) != 4:
             continue # some of the rows are just information panels without pokemon
         [img, info, berries, pokemon] = children
-
-        print({'info': getTreeName(info), 'berries': getBerries(berries), 'pokemon': getPokemon(pokemon), 'img': 'https://www.serebii.net/swordshield/' + img.find('img').get('src'), 'position': {'x': 0, 'y': 0}})
+        information = getTreeName(info)
+        if 'Route' in information['name']:
+            continue
+        print({'info': information, 'berries': getBerries(berries), 'pokemon': getPokemon(pokemon), 'img': 'https://www.serebii.net/swordshield/' + img.find('img').get('src'), 'position': {'x': 0, 'y': 0}})
+    
+    searchBerries = []
+    for k, v in allBerries.items():
+        searchBerries.append({'id': k, 'name': v})
+    searchBerries = sorted(searchBerries, key=fitness)
+    print(searchBerries)
 
 # s/'([^']*?)':/$1:/
 # s/\}\}, /}},/

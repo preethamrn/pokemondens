@@ -64,7 +64,7 @@ export default {
           continue
         }
         searchingForBerry = true
-        if (this.treeBerries.berries.indexOf(this.searchIDs[i]) >= 0) {
+        if (this.treeBerries.indexOf(this.searchIDs[i]) >= 0) {
             return true
           }
       }
