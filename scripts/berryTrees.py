@@ -35,7 +35,7 @@ def getPokemon(pokemon):
         elif item == 'skwovet':
             result.append('819')
         elif item == 'greedent':
-            result.append('819')
+            result.append('820')
         elif item == 'cherubi':
             result.append('420')
         else:
