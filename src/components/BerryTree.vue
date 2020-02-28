@@ -114,6 +114,6 @@ export default {
 }
 .pokemon-list {
   display: grid;
-  grid: repeat(1, 40px) / auto-flow 50px;
+  grid: repeat(1, 35px) / auto-flow 43px;
 }
 </style>

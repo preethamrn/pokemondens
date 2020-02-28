@@ -16,7 +16,7 @@ def getBerries(berries):
     text = berries.text.replace('Berry', '').strip()
     text.replace('\r', '')
     text.replace('\n', '')
-    return list(berry.lower()+'berry' for berry in text.split(' '))
+    return list(berry.lower()+('berry' if berry.lower() != 'leftovers' else '') for berry in text.split(' '))
 
 def getPokemon(pokemon):
     pokemonList = pokemon.findAll('a')
@@ -54,7 +54,7 @@ if __name__ == '__main__':
             continue # some of the rows are just information panels without pokemon
         [img, info, berries, pokemon] = children
 
-        print({'berries': getBerries(berries), 'pokemon': getPokemon(pokemon), 'img': 'https://www.serebii.net/swordshield/' + img.find('img').get('src'), 'info': getTreeName(info), 'position': {'x': 0, 'y': 0}})
+        print({'info': getTreeName(info), 'berries': getBerries(berries), 'pokemon': getPokemon(pokemon), 'img': 'https://www.serebii.net/swordshield/' + img.find('img').get('src'), 'position': {'x': 0, 'y': 0}})
 
 # s/'([^']*?)':/$1:/
 # s/\}\}, /}},/
