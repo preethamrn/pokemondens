@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <vue-kofi id='kofi' uid='preetham' />
     <div id='searchBar'>
       <v-autocomplete
         attach='#searchBar'
@@ -74,6 +75,8 @@
 
 <script>
 /* eslint-disable no-param-reassign,no-unused-expressions,no-unused-vars,no-console */
+import VueKofi from 'vue-kofi'
+
 import DenLocation from './components/DenLocation.vue'
 import BerryTree from './components/BerryTree.vue'
 import './components/pinch-zoom'
@@ -81,6 +84,7 @@ import './components/pinch-zoom'
 export default {
   name: 'app',
   components: {
+    VueKofi,
     DenLocation,
     BerryTree,
   },
@@ -361,6 +365,12 @@ export default {
   background-color: #b1cf4b;
   padding-bottom: 500px;
 }
+#kofi {
+  position: fixed;
+  transform: scale(1.4);
+  z-index: 1;
+  top: 40px; left: 100px;
+}
 #searchBar {
   position: fixed;
   top: 20px; left: 100vw; margin-left: -30vw;
@@ -388,13 +398,16 @@ export default {
   }
   #searchBar {
     width: 100vw;
-    top: 30px;
+    top: 0;
     left: unset; margin-left: unset;
   }
 
   #footer {
-    top: 0; width: 100vw; height: 30px;
-    bottom: unset;
+    display: hidden;
+  }
+  #kofi {
+    top: 50px; left:unset; width: 100vw; height: 30px;
+    transform: unset;
     overflow: visible;
   }
 }
