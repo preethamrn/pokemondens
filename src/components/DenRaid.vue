@@ -3,11 +3,11 @@
     <a class='name' :href='link'>{{name}} - {{type}}</a>
     <div class='sw version'>Sword</div>
     <div class='swp pokemon-list'>
-      <img v-for='(pokeID, index) in swordPokemon' :key='index' :src='`/sprites/${pokeID}.png`' />
+      <img v-for='(pokeID, index) in swordPokemon' :key='index' :src='`${publicPath}sprites/${pokeID}.png`' />
     </div>
     <div class='sh version'>Shield</div>
     <div class='shp pokemon-list'>
-      <img v-for='(pokeID, index) in shieldPokemon' :key='index' :src='`/sprites/${pokeID}.png`' />
+      <img v-for='(pokeID, index) in shieldPokemon' :key='index' :src='`${publicPath}sprites/${pokeID}.png`' />
     </div>
   </div>
 </template>
@@ -16,7 +16,9 @@
 export default {
   name: 'DenRaid',
   data() {
-    return {}
+    return {
+      publicPath: process.env.VUE_APP_PUBLIC_PATH,
+    }
   },
   props: {
     name: String,

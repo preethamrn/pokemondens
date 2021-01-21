@@ -22,7 +22,7 @@
             @click:close='remove(item)'
             v-on='on'
           >
-            <img :src='`/sprites/${item.id}.png`' />
+            <img :src='`${publicPath}sprites/${item.id}.png`' />
             <span v-text='item.name'></span>
           </v-chip>
         </template>
@@ -31,7 +31,7 @@
             color='indigo'
             class='headline font-weight-light white--text'
           >
-            <img :src='`/sprites/${item.id}.png`' />
+            <img :src='`${publicPath}sprites/${item.id}.png`' />
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title v-text='item.name'></v-list-item-title>
@@ -90,6 +90,8 @@ export default {
   },
   data() {
     return {
+      publicPath: process.env.VUE_APP_PUBLIC_PATH,
+
       // support reset pinch-zoom --x,--y,--scale attributes
       resetScale: 1.0,
       resetTranslate: {

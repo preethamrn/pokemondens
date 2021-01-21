@@ -1,6 +1,6 @@
 <template>
   <div class='tree' :style="{left: position.x + 'px', top: position.y + 'px'}" @mouseenter="triggerHover()" @mouseleave="clearHover">
-    <img @touchstart="toggleHover()" :src="found ? '/icons/tree.png' : '/icons/tree-notfound.png'" :style='{transform: found ? "scale(1.0)" : "scale(0.5)"}'>
+    <img @touchstart="toggleHover()" :src="found ? `${publicPath}icons/tree.png` : `${publicPath}icons/tree-notfound.png`" :style='{transform: found ? "scale(1.0)" : "scale(0.5)"}'>
     <v-container v-if='hover && treeBerries' class='tree-hover' fluid>
       <v-row style="justify-content: center;"><img :src='screenshotImg' width="80%"/></v-row>
       <v-row>
@@ -9,11 +9,11 @@
           <a class='name' :href='treeInfo.link'>{{treeInfo.name}}</a>
           <div class='bt type'>Berries</div>
           <div class='btb pokemon-list'>
-            <img v-for='(berryID, index) in treeBerries' :key='index' :src='`/sprites/${berryID}.png`' />
+            <img v-for='(berryID, index) in treeBerries' :key='index' :src='`${publicPath}sprites/${berryID}.png`' />
           </div>
           <div class='btt type'>Pokemon</div>
           <div class='btp pokemon-list'>
-            <img v-for='(pokeID, index) in treePokemon' :key='index' :src='`/sprites/${pokeID}.png`' />
+            <img v-for='(pokeID, index) in treePokemon' :key='index' :src='`${publicPath}sprites/${pokeID}.png`' />
           </div>
         </div>
         </v-col>
@@ -28,6 +28,7 @@ export default {
   data() {
     return {
       hover: false,
+      publicPath: process.env.VUE_APP_PUBLIC_PATH,
     }
   },
   props: {
