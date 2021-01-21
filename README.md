@@ -30,10 +30,7 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # TODO
-- Add berry trees:
-  - Add berry tree hover functionality
-  - Add berry tree icons and search functionality
-  - Add berries and pokemon information (scrape serebii)
+- Add berries and pokemon information (scrape serebii. what each Berry does, spawn rates, etc)
 - Add other map elements (items, nursery, watts trader, digging duo)
 - Toggle map elements functionality
 - Support searching for berry trees by their attributes and display attributes using custom select item (eg. lower attack EV, etc.)
@@ -54,3 +51,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Search for dens by Pokemon
 - Setup all den Pokemon (update denPokemon.py script to generate the required component data)
 - Setup all den positions
+- Add berry trees:
+  - Add berry tree hover functionality
+  - Add berry tree icons and search functionality
